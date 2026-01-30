@@ -1,0 +1,367 @@
+[2026-01-31 00:14:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:14:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:15:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:15:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:35:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:35:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:35:37] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 00:35:37] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 00:40:14] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:40:14] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:40:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:44:36] [INF] Retrieved all WorkGroup entities
+[2026-01-31 00:44:37] [INF] Retrieved all WorkGroup entities
+[2026-01-31 00:44:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:44:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:07] [INF] Added TaskItem with ID: 7
+[2026-01-31 00:45:07] [INF] MongoDB Test Log: Added entity at "2026-01-30T20:45:07.5267419Z"
+[2026-01-31 00:45:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:16] [INF] User Login in: umudovr530@gmail.com
+[2026-01-31 00:45:16] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzY5ODA1OTE2LCJleHAiOjE3Njk4MDk1MTYsImlhdCI6MTc2OTgwNTkxNiwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.okw4w1F0_xMtk6wZaizA0o1-s99eaRo2YCz_7WUl0hs
+[2026-01-31 00:45:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:28] [INF] Retrieved TaskItem with ID: 7
+[2026-01-31 00:45:28] [INF] Retrieved TaskItem with ID: 7
+[2026-01-31 00:45:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:38] [INF] Retrieved TaskItem with ID: 7
+[2026-01-31 00:45:38] [INF] Retrieved TaskItem with ID: 7
+[2026-01-31 00:45:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:45:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:47:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:47:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:48:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:48:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:48:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:48:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:49:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:49:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:49:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:49:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:58:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:58:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:59:37] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:59:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 00:59:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:07] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 01:03:07] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTgwNjk4NywiZXhwIjoxNzY5ODEwNTg3LCJpYXQiOjE3Njk4MDY5ODcsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.2YWLTXgr8oVaF2dNwHuP53iuQ2dBB647iVJ7qnut7ZY
+[2026-01-31 01:03:07] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 01:03:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:27] [INF] Added TaskItem with ID: 8
+[2026-01-31 01:03:27] [INF] MongoDB Test Log: Added entity at "2026-01-30T21:03:27.2835249Z"
+[2026-01-31 01:03:27] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:43] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:03:43] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:03:43] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:43] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:03:51] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:03:51] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:04:04] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:04:04] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:04:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:04:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:05] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:09:05] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:09:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:12] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:09:12] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 01:09:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:09:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:10:04] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 01:10:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:10:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:12:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:14:48] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:14:48] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:14:54] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:14:54] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:14:57] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:14:57] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:15:02] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:16:46] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:16:46] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:16:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:16:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:16:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:16:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:17:05] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:17:05] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:17:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:17:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:17:11] [INF] Retrieved TaskItem with ID: 6
+[2026-01-31 01:17:11] [INF] Retrieved TaskItem with ID: 6
+[2026-01-31 01:17:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:17:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:22:57] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:25:37] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:25:37] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:25:39] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:25:39] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:25:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:25:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:14] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:14] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:26:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:31:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:31:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:32:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:33:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:33:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:33:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:33:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:35:12] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:35:12] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:35:13] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:35:13] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:37:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:37:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:38:11] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:12] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:14] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:14] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:38:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:38:18] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:18] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:38:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:38:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:40:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:40:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:40:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:40:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:41:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:42:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:42:29] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:42:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:42:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:34] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:43:34] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 01:43:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:43:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:48:27] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:48:27] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:48:42] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:48:42] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:48:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:48:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:49:00] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:49:00] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:49:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:49:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:49:08] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:49:08] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:49:18] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:49:18] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:49:21] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:49:21] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:49:22] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:49:22] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:49:40] [WRN] Invalid login attempt for user: ravanmu@code.edu.az
+[2026-01-31 01:49:40] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:50:29] [WRN] Invalid login attempt for user: ravanmu@code.edu.az
+[2026-01-31 01:50:29] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:51:00] [INF] New user registered: umudova1985@gmail.com
+[2026-01-31 01:51:06] [INF] User Login in: umudova1985@gmail.com
+[2026-01-31 01:51:06] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4MDk4NjYsImV4cCI6MTc2OTgxMzQ2NiwiaWF0IjoxNzY5ODA5ODY2LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.deU4WXBCJKbwZLYMgYuNhQUCgEilF7cLsAabaSsiXJ8
+[2026-01-31 01:51:06] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 01:51:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:51:37] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:51:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:52:23] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 01:52:23] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 01:57:06] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:57:06] [INF] Retrieved all WorkGroup entities
+[2026-01-31 01:57:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:57:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:57:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 01:57:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:01:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:01:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:47] [INF] Retrieved all WorkGroup entities
+[2026-01-31 02:02:47] [INF] Retrieved all WorkGroup entities
+[2026-01-31 02:02:49] [INF] Retrieved all WorkGroup entities
+[2026-01-31 02:02:49] [INF] Retrieved all WorkGroup entities
+[2026-01-31 02:02:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:56] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:02:56] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:32] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:32] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:34] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:36] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:36] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:36] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:36] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:36] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:36] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:36] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:36] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:36] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:36] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:37] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:37] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:37] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 02:04:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 02:04:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:04:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:20] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:20] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:56] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:56] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:05:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:06:00] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:06:00] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:06:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:06:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:07:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:08:13] [INF] New user registered: ravanumdv@gmail.com
+[2026-01-31 02:08:18] [INF] User Login in: ravanumdv@gmail.com
+[2026-01-31 02:08:18] [INF] JWT token yaradıldı: ravanumdv@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4MzAxNDU5Ni0wNjEyLTQxZWUtYTU0Ny1jMjFiMjk2MjJkYWQiLCJ1bmlxdWVfbmFtZSI6InJhdmFudW1kdiIsImVtYWlsIjoicmF2YW51bWR2QGdtYWlsLmNvbSIsInJvbGUiOiJFbXBsb3llZSIsIm5iZiI6MTc2OTgxMDg5OCwiZXhwIjoxNzY5ODE0NDk4LCJpYXQiOjE3Njk4MTA4OTgsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.5dj7FFJz4B42z8Q7585FyKJXr7VjelplJW1JVRIIEto
+[2026-01-31 02:08:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:08:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:07] [INF] Added TaskItem with ID: 9
+[2026-01-31 02:09:07] [INF] MongoDB Test Log: Added entity at "2026-01-30T22:09:07.6897993Z"
+[2026-01-31 02:09:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:09:54] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 02:09:54] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 02:10:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:03] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:10] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:15] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:32] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:32] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:34] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:10:34] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 02:11:28] [INF] Retrieved all TaskItem entities
