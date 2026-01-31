@@ -91,8 +91,8 @@ export const taskService = {
         await httpClient.post(`/Task/UnAssignTask?taskId=${taskId}&userId=${userId}`);
     },
 
-    async addComment(taskId: number, userId: string, comment: string): Promise<void> {
-        await httpClient.post(`/Task/AddComment?taskId=${taskId}&userId=${userId}&comment=${encodeURIComponent(comment)}`);
+    async addComment(taskId: number, comment: string): Promise<void> {
+        await httpClient.post(`/Task/AddComment?taskId=${taskId}&comment=${encodeURIComponent(comment)}`);
     },
 
     async acceptTask(taskId: number): Promise<void> {
@@ -101,6 +101,14 @@ export const taskService = {
 
     async rejectTask(taskId: number, reason: string): Promise<void> {
         await httpClient.post(`/Task/reject?taskId=${taskId}&reason=${encodeURIComponent(reason)}`);
+    },
+
+    async finishTask(taskId: number): Promise<void> {
+        await httpClient.post(`/Task/FinishTask?taskId=${taskId}`);
+    },
+
+    async returnForRevision(taskId: number, userId: string, reason: string): Promise<void> {
+        await httpClient.post(`/Task/ReopenTask?taskId=${taskId}&userId=${userId}&reason=${encodeURIComponent(reason)}`);
     },
 };
 

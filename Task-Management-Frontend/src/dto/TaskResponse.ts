@@ -2,8 +2,9 @@ export const TaskStatus = {
     Pending: 0,
     Assigned: 1,
     InProgress: 2,
-    Completed: 3,
-    Expired: 4,
+    UnderReview: 3,
+    Completed: 4,
+    Expired: 5,
 } as const;
 
 export type TaskStatus = typeof TaskStatus[keyof typeof TaskStatus];

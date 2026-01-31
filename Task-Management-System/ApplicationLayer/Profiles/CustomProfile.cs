@@ -30,22 +30,26 @@ namespace Application.Profiles
                 .ForMember(dest => dest.Files, opt => opt.MapFrom(src => src.Attachments))
                 .ForMember(dest => dest.TaskCommentId, opt => opt.MapFrom(src => src.TaskComments != null
                     ? src.TaskComments.Select(c => c.Id).ToList()
+                    : null))
+                .ForMember(dest => dest.TaskComments, opt => opt.MapFrom(src => src.TaskComments != null
+                    ? src.TaskComments.Select(c => new TaskCommentDTO
+                    {
+                        Id = c.Id,
+                        Content = c.Content,
+                        UserId = c.UserId,
+                        UserName = c.User != null ? c.User.UserName : null,
+                        TaskId = c.TaskId,
+                        CreatedAt = c.CreateAt
+                    }).ToList()
                     : null));
-            CreateMap<TaskComment, TaskCommentDTO>().ReverseMap();
+            CreateMap<TaskComment, TaskCommentDTO>()
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User != null ? src.User.UserName : null))
+                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => src.CreateAt))
+                .ReverseMap()
+                .ForMember(dest => dest.User, opt => opt.Ignore());
             CreateMap<WorkGroup, WorkGroupDTO>()
-              .ForMember(dest => dest.UserIds, opt => opt.MapFrom(src => src.Users.Select(u => u.Id).ToList()))
-              .ForMember(dest => dest.TaskIds, opt => opt.MapFrom(src => src.Tasks.Select(t => new TaskDTO
-              {
-                  Id = t.Id,
-                  Title = t.Title,
-                  Description = t.Description,
-                  AssignedToUserId = t.AssignedToUserId,
-                  CreatedByUserId = t.CreatedByUserId,
-                  Deadline = t.Deadline,
-                  Status = t.Status,
-                  Difficulty = t.Difficulty,
-                  
-              })))
+              .ForMember(dest => dest.UserIds, opt => opt.MapFrom(src => src.Users != null ? src.Users.Select(u => u.Id).ToList() : new List<string>()))
+              .ForMember(dest => dest.TaskIds, opt => opt.MapFrom(src => src.Tasks != null ? src.Tasks.Select(t => t.Id).ToList() : new List<int>()))
               .ForMember(dest => dest.LeaderId, opt => opt.MapFrom(src => src.LeaderId));
 
             // DTO -> Entity

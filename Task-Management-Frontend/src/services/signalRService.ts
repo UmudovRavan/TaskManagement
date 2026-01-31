@@ -135,11 +135,23 @@ class SignalRService {
      * Setup connection event handlers
      */
     private setupEventHandlers(connection: signalR.HubConnection): void {
-        // Receive notification event
-        connection.on('ReceiveNotification', (message: string) => {
+        // Receive notification event - backend sends object { message, taskId }
+        connection.on('ReceiveNotification', (payload: unknown) => {
             try {
-                console.log('[SignalR] 📬 Notification received:', message);
-                this.notifyListeners('ReceiveNotification', message);
+                console.log('[SignalR] 📬 Notification received:', payload);
+
+                // Handle both string and object payloads
+                let messageToSend: string;
+                if (typeof payload === 'string') {
+                    messageToSend = payload;
+                } else if (typeof payload === 'object' && payload !== null) {
+                    // Serialize object to JSON string for listeners
+                    messageToSend = JSON.stringify(payload);
+                } else {
+                    messageToSend = String(payload);
+                }
+
+                this.notifyListeners('ReceiveNotification', messageToSend);
             } catch (error) {
                 console.error('[SignalR] Error in notification handler:', error);
             }

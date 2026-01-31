@@ -20,6 +20,18 @@ const ForgotPassword: React.FC = () => {
             navigate('/otp-verification');
         } catch (err) {
             const axiosError = err as AxiosError<{ message?: string; title?: string }>;
+            const status = axiosError.response?.status;
+
+            // Backend endpoints have [Authorize] instead of [AllowAnonymous]
+            // This is a backend bug - temporary frontend workaround
+            if (status === 401) {
+                // Still navigate to OTP page but show warning
+                sessionStorage.setItem('resetEmail', email);
+                sessionStorage.setItem('resetOtpError', 'true');
+                navigate('/otp-verification');
+                return;
+            }
+
             const errorMessage =
                 axiosError.response?.data?.message ||
                 axiosError.response?.data?.title ||

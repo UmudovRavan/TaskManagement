@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
 import { notificationService, authService } from '../api';
 import type { NotificationResponse } from '../dto';
-import { NotificationType, getNotificationType } from '../dto';
 import { parseJwtToken, isTokenExpired } from '../utils';
 import type { UserInfo } from '../utils';
 
@@ -116,6 +115,10 @@ const Notifications: React.FC = () => {
     };
 
     const handleNotificationClick = async (notification: NotificationResponse) => {
+        // Debug: log notification data
+        console.log('Notification clicked:', notification);
+        console.log('TaskId:', notification.taskId, 'RelatedTaskId:', notification.relatedTaskId);
+
         // Mark as read if unread
         if (!notification.isRead) {
             try {
@@ -131,16 +134,11 @@ const Notifications: React.FC = () => {
         }
 
         // Determine notification type and navigate accordingly
-        if (notification.relatedTaskId) {
-            const notificationType = getNotificationType(notification.message);
-
-            // For task assignment notifications, go to assignment detail page
-            if (notificationType === NotificationType.TaskAssignment) {
-                navigate(`/tasks/assignment/${notification.relatedTaskId}`);
-            } else {
-                // For other notifications, go to regular task detail
-                navigate(`/tasks/${notification.relatedTaskId}`);
-            }
+        // Use taskId from backend (fallback to relatedTaskId for compatibility)
+        const taskId = notification.taskId || notification.relatedTaskId;
+        console.log('Navigating to taskId:', taskId);
+        if (taskId) {
+            navigate(`/tasks/${taskId}`);
         }
     };
 
@@ -353,27 +351,17 @@ const Notifications: React.FC = () => {
                                                                 )}
 
                                                                 {/* Action buttons for task assignment notifications */}
-                                                                {isAssignmentNotification(notification.message) && notification.relatedTaskId && (
+                                                                {isAssignmentNotification(notification.message) && (notification.taskId || notification.relatedTaskId) && (
                                                                     <div className="flex gap-2 mt-3" onClick={(e) => e.stopPropagation()}>
                                                                         <button
                                                                             onClick={(e) => {
                                                                                 e.stopPropagation();
-                                                                                navigate(`/tasks/assignment/${notification.relatedTaskId}`);
+                                                                                navigate(`/tasks/${notification.taskId || notification.relatedTaskId}`);
                                                                             }}
-                                                                            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors shadow-sm"
+                                                                            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg bg-primary text-white hover:bg-blue-600 transition-colors shadow-sm"
                                                                         >
-                                                                            <span className="material-symbols-outlined text-[16px]">check</span>
-                                                                            Qəbul Et
-                                                                        </button>
-                                                                        <button
-                                                                            onClick={(e) => {
-                                                                                e.stopPropagation();
-                                                                                navigate(`/tasks/assignment/${notification.relatedTaskId}`);
-                                                                            }}
-                                                                            className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg border border-red-300 dark:border-red-600 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
-                                                                        >
-                                                                            <span className="material-symbols-outlined text-[16px]">close</span>
-                                                                            Rədd Et
+                                                                            <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+                                                                            Cavabla
                                                                         </button>
                                                                     </div>
                                                                 )}

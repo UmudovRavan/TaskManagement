@@ -34,7 +34,8 @@ httpClient.interceptors.request.use(
         }
 
         // Extend timeout for file uploads
-        if (config.headers?.['Content-Type']?.includes('multipart/form-data')) {
+        const contentType = config.headers?.['Content-Type'];
+        if (typeof contentType === 'string' && contentType.includes('multipart/form-data')) {
             config.timeout = 30000; // 30 seconds for uploads
         }
 
@@ -70,12 +71,21 @@ httpClient.interceptors.response.use(
         } else if (error.response) {
             // Server responded with error status
             const status = error.response.status;
+            const requestUrl = error.config?.url || '';
 
-            if (status === 401) {
-                // Unauthorized - clear token and redirect
+            // Password reset endpoints should NOT redirect to login on 401
+            // These endpoints require [AllowAnonymous] on backend but currently have [Authorize]
+            const isPasswordResetFlow = requestUrl.toLowerCase().includes('sendresetotp') ||
+                requestUrl.toLowerCase().includes('resetpassword');
+
+            if (status === 401 && !isPasswordResetFlow) {
+                // Unauthorized - clear token and redirect (except for password reset flow)
                 console.log('[HTTP] 401 Unauthorized - clearing session');
                 localStorage.removeItem('authToken');
                 window.location.href = '/login';
+            } else if (status === 401 && isPasswordResetFlow) {
+                // Password reset flow - let the error propagate without redirect
+                console.log('[HTTP] 401 on password reset endpoint - not redirecting');
             } else if (status === 403) {
                 console.error('[HTTP] 403 Forbidden');
             } else if (status >= 500) {

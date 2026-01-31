@@ -13,6 +13,8 @@ namespace Contract.Services
         public Task AssignTaskAsync(int taskId, string userId);
         Task AcceptTask(int taskId, string userId);
         Task RejectTask(int taskId, string userId, string reason);
+        Task FinishTask(int taskId, string userId);
+        Task ReturnedForRevision(int taskId, string userId, string reason);
 
 
     }

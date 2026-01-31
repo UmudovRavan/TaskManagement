@@ -312,6 +312,7 @@ const TaskEdit: React.FC = () => {
                                             <option value={TaskStatus.Pending}>Gözləyir</option>
                                             <option value={TaskStatus.Assigned}>Təyin edilib</option>
                                             <option value={TaskStatus.InProgress}>Davam edir</option>
+                                            <option value={TaskStatus.UnderReview}>Nəzərdən keçirilir</option>
                                             <option value={TaskStatus.Completed}>Tamamlandı</option>
                                             <option value={TaskStatus.Expired}>Vaxtı bitib</option>
                                         </select>

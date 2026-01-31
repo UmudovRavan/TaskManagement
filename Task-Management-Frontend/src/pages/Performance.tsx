@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
 import { performanceService, taskService, notificationService } from '../api';
 import type { NotificationResponse, TaskResponse, LeaderboardEntry } from '../dto';
+import { TaskStatus } from '../dto';
 import { parseJwtToken, isTokenExpired } from '../utils';
 import type { UserInfo } from '../utils';
 
@@ -95,7 +96,7 @@ const Performance: React.FC = () => {
         }
 
         // Completed tasks
-        const completedTasks = userTasks.filter(task => task.status === 3); // TaskStatus.Completed
+        const completedTasks = userTasks.filter(task => task.status === TaskStatus.Completed);
 
         // Completion rate
         const completionRate = userTasks.length > 0

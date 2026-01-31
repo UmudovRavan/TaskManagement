@@ -57,7 +57,7 @@ namespace Presentation.Controllers
             await _authorizeService.LogoutAsync();
             return Ok(new { Message = "User logged out successfully" });
         }
-        [Authorize]
+        [AllowAnonymous]
         [HttpPost("ResetPassword")]
         public async Task<IActionResult> ResetPassword([FromBody] PasswordResetDTO passwordResetDTO)
         {
@@ -72,7 +72,7 @@ namespace Presentation.Controllers
             }
 
         }
-        [Authorize]
+        [AllowAnonymous]
         [HttpPost("SendResetOtp")]
 
         public async Task<IActionResult> SendResetOtp([FromBody] string emailDTO)

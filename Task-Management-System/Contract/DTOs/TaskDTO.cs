@@ -22,6 +22,7 @@ namespace Contract.DTOs
 
         public int? ParentTaskId { get; set; }
         public List<int>?TaskCommentId { get; set; }
+        public List<TaskCommentDTO>? TaskComments { get; set; }
         public List<FileDto>? Files { get; set; }
     }
 }

@@ -64,7 +64,8 @@ namespace Application.Services
 
             };
 
-
+            task.Status = Domain.Enums.CurrentSituation.Completed;
+            await _taskRepository.UpdateAsync(task);
             await _performancePointRepository.AddAsync(performancePoint);
             await _transactionRepository.AddAsync(new TaskTransaction
             {
@@ -79,12 +80,12 @@ namespace Application.Services
 
         public async Task<List<LeaderBoardDTO>> leaderboard()
         {
-            // PerformancePoint-ləri User ilə birlikdə gətiririk
+
             var points = await _performancePointRepository.GetAllAsync(
                 include: q => q.Include(x => x.User)
             );
 
-            // DTO-ya map edirik, entity-nin collections-u JSON-a getmir
+
             var leaderboard = points
                 .GroupBy(x => new { x.UserId, x.User.UserName })
                 .Select(g => new LeaderBoardDTO

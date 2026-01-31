@@ -26,6 +26,12 @@ const TaskStatusBadge: React.FC<TaskStatusBadgeProps> = ({ status }) => {
                     bgColor: 'bg-purple-100 dark:bg-purple-900/30',
                     textColor: 'text-purple-700 dark:text-purple-400',
                 };
+            case TaskStatus.UnderReview:
+                return {
+                    label: 'Nəzərdən keçirilir',
+                    bgColor: 'bg-orange-100 dark:bg-orange-900/30',
+                    textColor: 'text-orange-700 dark:text-orange-400',
+                };
             case TaskStatus.Completed:
                 return {
                     label: 'Tamamlandı',

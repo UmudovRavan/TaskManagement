@@ -36,11 +36,10 @@ namespace Application.Services
 
         public async Task<IEnumerable<WorkGroupDTO>> GetAllWorkGroupsAsync()
         {
-
-
             var data = await _groupWorkservice.GetAllAsync(q => q
                 .Include(w => w.Leader)   
-                .Include(w => w.Users)  
+                .Include(w => w.Users)
+                .Include(w => w.Tasks)
             );
 
             return data;
@@ -117,7 +116,7 @@ namespace Application.Services
                 WorkGroupId = targetWorkGroupId,
                 CreatedByUserId = task.CreatedByUserId,
                 Deadline = task.Deadline,
-                Status = CurrentSituation.Assigned,
+                Status = CurrentSituation.Pending,
                 Difficulty = task.Difficulty,
                 TaskCommentId = task.TaskCommentId
             };

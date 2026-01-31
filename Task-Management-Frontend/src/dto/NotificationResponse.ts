@@ -15,7 +15,8 @@ export interface NotificationResponse {
     message: string;
     isRead: boolean;
     createdAt: string;
-    relatedTaskId?: number;
+    taskId?: number;        // Backend field name
+    relatedTaskId?: number; // Alias for compatibility
 }
 
 // Helper function to detect notification type from message

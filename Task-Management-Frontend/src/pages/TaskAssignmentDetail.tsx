@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
+import { useNotifications } from '../context';
 import { taskService, authService, notificationService, userService, attachmentService } from '../api';
 import type { TaskResponse, NotificationResponse, UserResponse } from '../dto';
 import { TaskStatus } from '../dto';
@@ -12,6 +13,7 @@ type AssignmentStatus = 'pending' | 'accepted' | 'rejected';
 const TaskAssignmentDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
+    const { addToast } = useNotifications();
     const [task, setTask] = useState<TaskResponse | null>(null);
     const [notifications, setNotifications] = useState<NotificationResponse[]>([]);
     const [allUsers, setAllUsers] = useState<UserResponse[]>([]);
@@ -127,11 +129,12 @@ const TaskAssignmentDetail: React.FC = () => {
             // Reload task to get updated status
             const updatedTask = await taskService.getTaskById(task.id);
             setTask(updatedTask);
+            addToast('Tapşırıq uğurla qəbul edildi', undefined, 'success');
         } catch (error: any) {
             const errorMessage = error.response?.data?.message
                 || error.response?.data
                 || 'Tapşırığı qəbul etmək mümkün olmadı';
-            alert(errorMessage);
+            addToast(errorMessage, undefined, 'error');
         } finally {
             setIsProcessing(false);
         }
@@ -148,11 +151,12 @@ const TaskAssignmentDetail: React.FC = () => {
             // Reload task to get updated status
             const updatedTask = await taskService.getTaskById(task.id);
             setTask(updatedTask);
+            addToast('Tapşırıq rədd edildi', undefined, 'success');
         } catch (error: any) {
             const errorMessage = error.response?.data?.message
                 || error.response?.data
                 || 'Tapşırığı rədd etmək mümkün olmadı';
-            alert(errorMessage);
+            addToast(errorMessage, undefined, 'error');
         } finally {
             setIsProcessing(false);
         }
@@ -176,7 +180,7 @@ const TaskAssignmentDetail: React.FC = () => {
             document.body.removeChild(link);
             window.URL.revokeObjectURL(url);
         } catch {
-            alert('Faylı yükləmək mümkün olmadı');
+            addToast('Faylı yükləmək mümkün olmadı', undefined, 'error');
         }
     };
 
@@ -199,7 +203,7 @@ const TaskAssignmentDetail: React.FC = () => {
             link.click();
             document.body.removeChild(link);
         } catch (error: any) {
-            alert(`Fayl önizləməsi mümkün olmadı: ${error.message || 'Naməlum xəta'}`);
+            addToast(`Fayl önizləməsi mümkün olmadı: ${error.message || 'Naməlum xəta'}`, undefined, 'error');
         }
     };
 

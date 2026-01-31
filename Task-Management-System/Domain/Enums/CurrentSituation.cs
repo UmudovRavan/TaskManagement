@@ -9,6 +9,7 @@ namespace Domain.Enums
         Pending,
         Assigned,
         InProgress,
+        UnderReview,
         Completed ,
         Expired
     }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, KeyboardEvent, ClipboardEvent } from 'react';
+import React, { useState, useEffect, useRef, type KeyboardEvent, type ClipboardEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const OtpVerification: React.FC = () => {
@@ -8,6 +8,7 @@ const OtpVerification: React.FC = () => {
     const [canResend, setCanResend] = useState(false);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
+    const [backendError, setBackendError] = useState(false);
     const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
 
     const email = sessionStorage.getItem('resetEmail') || '';
@@ -17,6 +18,14 @@ const OtpVerification: React.FC = () => {
         if (!email) {
             navigate('/forgot-password');
             return;
+        }
+
+        // Check if there was a backend error (401 from [Authorize] attribute)
+        const hasOtpError = sessionStorage.getItem('resetOtpError');
+        if (hasOtpError) {
+            setBackendError(true);
+            setError('Backend xətası: Şifrə sıfırlama servisi hazırda işləmir. Zəhmət olmasa sistemə daxil olun və ya administratorla əlaqə saxlayın.');
+            sessionStorage.removeItem('resetOtpError');
         }
 
         if (inputRefs.current[0]) {
@@ -167,7 +176,7 @@ const OtpVerification: React.FC = () => {
                     <button
                         className="w-full h-12 flex items-center justify-center rounded-lg bg-primary hover:bg-[#202e3d] text-white font-semibold text-base shadow-sm transition-colors duration-200 disabled:opacity-70 disabled:cursor-not-allowed"
                         onClick={handleVerify}
-                        disabled={loading}
+                        disabled={loading || backendError}
                     >
                         {loading ? (
                             <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

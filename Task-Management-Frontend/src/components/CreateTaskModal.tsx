@@ -201,7 +201,9 @@ const CreateTaskModal: React.FC<CreateTaskModalProps> = ({
                 title: title.trim(),
                 description: description.trim(),
                 difficulty,
-                status: 0, // Pending
+                // If assigning to a user, set status to Assigned (1) so they can Accept/Reject
+                // Otherwise, set to Pending (0)
+                status: assignedUser?.id ? 1 : 0,
                 deadline: formattedDeadline,
                 assignedToUserId: assignedUser?.id || undefined, // Ensure it's undefined if no user selected
                 createdByUserId,

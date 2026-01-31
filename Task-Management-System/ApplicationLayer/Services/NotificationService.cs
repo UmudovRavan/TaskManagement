@@ -42,7 +42,7 @@ public class NotificationService : INotificationService
     }
 
 
-    public async Task NotifyMentionsAsync(Dictionary<string, string> userMessages)
+    public async Task NotifyMentionsAsync(Dictionary<string, string> userMessages, int taskId = 0)
     {
         if (userMessages == null || !userMessages.Any()) return;
 
@@ -51,6 +51,7 @@ public class NotificationService : INotificationService
             {
                 UserId = kv.Key,
                 Message = kv.Value,
+                TaskId = taskId > 0 ? taskId : null,
                 IsRead = false,
                 CreateAt = DateTime.UtcNow
             })
@@ -62,7 +63,11 @@ public class NotificationService : INotificationService
             .Select(kv =>
             {
                 var userId = kv.Key.ToLower();
-                return _hub.Clients.User(userId).SendAsync("ReceiveNotification", kv.Value);
+                return _hub.Clients.User(userId).SendAsync("ReceiveNotification", new
+                {
+                    message = kv.Value,
+                    taskId
+                });
             })
             .ToList();
 
@@ -87,7 +92,7 @@ public class NotificationService : INotificationService
         var message = $"{userName} {task.TaskTitle} tapşırığını qəbul etdi";
         await _repository.AddAsync(new Notification
         {
-            UserId = task.accepterId,
+            UserId = task.userId,
             Message = message,
             IsRead = false,
             CreateAt = DateTime.UtcNow
@@ -102,7 +107,7 @@ public class NotificationService : INotificationService
         var message = $"{userName} {task.TaskTitle} tapşırığını rədd etdi";
         await _repository.AddAsync(new Notification
         {
-            UserId = task.accepterId,
+            UserId = task.userId,
             Message = message,
             IsRead = false,
             CreateAt = DateTime.UtcNow
@@ -138,5 +143,46 @@ public class NotificationService : INotificationService
         await _repository.AddAsync(notification);
         await _hub.Clients.User(userId)
             .SendAsync("ReceiveNotification", message);
+    }
+    public async Task FinishTaskNotificationAsync(string creatorId, string taskTitle, int taskId)
+    {
+        var user = _userManager.Users.FirstOrDefault(u => u.Id == creatorId);
+        var message = $"{user.UserName}{taskTitle} tapşırığı tamamlandı";
+        var notification = new Notification
+        {
+            UserId = creatorId,
+            Message = message,
+            TaskId = taskId,
+            IsRead = false,
+            CreateAt = DateTime.UtcNow
+        };
+        await _repository.AddAsync(notification);
+        await _hub.Clients.User(creatorId)
+            .SendAsync("ReceiveNotification", new
+            {
+                message,
+                taskId
+            });
+
+    }
+
+    public Task ReturnedForRevision(string userId, string taskTitle, int taskId)
+    {
+        var message = $"{taskTitle} tapşırığı yenidən işlənmək üçün geri göndərildi";
+        var notification = new Notification
+        {
+            UserId = userId,
+            Message = message,
+            TaskId = taskId,
+            IsRead = false,
+            CreateAt = DateTime.UtcNow
+        };
+        _repository.AddAsync(notification);
+        return _hub.Clients.User(userId)
+            .SendAsync("ReceiveNotification", new
+            {
+                message,
+                taskId
+            });
     }
 }

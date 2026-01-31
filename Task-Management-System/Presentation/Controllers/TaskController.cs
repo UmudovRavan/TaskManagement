@@ -67,7 +67,10 @@ namespace Presentation.Controllers
         [HttpGet("GetTask/{id}")]
         public async Task<IActionResult> GetTask(int id)
         {
-            var task = await _genericService.GetByIdAsync(id, query => query.Include(t => t.Attachments));
+            var task = await _genericService.GetByIdAsync(id, query => query
+                .Include(t => t.Attachments)
+                .Include(t => t.TaskComments)
+                    .ThenInclude(c => c.User));
             if (task == null)
             {
                 return NotFound();
@@ -180,6 +183,21 @@ namespace Presentation.Controllers
             await _taskService.RejectTask(taskId, userId, reason);
             return Ok();
         }
+        [Authorize]
+        [HttpPost("FinishTask")]
+        public async Task<IActionResult> FinishTask(int taskId)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            await _taskService.FinishTask(taskId, userId);
+            return Ok();
+        }
+        [Authorize]
+        [HttpPost("ReopenTask")]
+        public async Task<IActionResult> ReturnedForRevision(int taskId, string userId, string reason)
+        {
 
+            await _taskService.ReturnedForRevision(taskId, userId, reason);
+            return Ok();
+        }
     }
 }

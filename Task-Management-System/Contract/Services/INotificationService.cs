@@ -16,10 +16,12 @@ namespace Contract.Services
         Task RejectTaskNotificarionAsync(TaskActionDTO dto);
             Task<List<Notification>> GetMyNotificationsAsync(string userId);
             Task MarkReadAsync(int id);
-            Task NotifyMentionsAsync(Dictionary<string, string> userMessages);
+            Task NotifyMentionsAsync(Dictionary<string, string> userMessages, int taskId = 0);
         Task AcceptTaskNotificationAsync(TaskActionDTO dto);
         Task NotifyUserAddedToWorkGroupAsync(string userId, string workGroupName);
         Task NotifyUserRemovedFromWorkGroupAsync(string userId, string workGroupName);
+        Task ReturnedForRevision(string userId, string taskTitle, int taskId);
+        Task FinishTaskNotificationAsync(string userId, string taskTitle, int taskId);
     }
 
 }

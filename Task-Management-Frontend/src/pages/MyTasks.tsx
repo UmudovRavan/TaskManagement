@@ -52,6 +52,19 @@ const MyTasks: React.FC = () => {
     const filteredTasks = useMemo(() => {
         let result = allTasks;
 
+        // IMPORTANT: Hide tasks that are awaiting acceptance by the current user
+        // If status = Assigned AND assignedToUserId = currentUser AND createdByUserId != currentUser
+        // This task should NOT appear in the list - user needs to Accept via notification first
+        result = result.filter((task) => {
+            const isPendingAcceptance =
+                task.status === TaskStatus.Assigned &&
+                task.assignedToUserId === userInfo?.userId &&
+                task.createdByUserId !== userInfo?.userId;
+
+            // If task is pending acceptance, hide it from the list
+            return !isPendingAcceptance;
+        });
+
         // 1. Ownership / Role Logic
         if (ownershipFilter === 'created') {
             result = result.filter((task) => task.createdByUserId === userInfo?.userId);
@@ -269,8 +282,9 @@ const MyTasks: React.FC = () => {
                                                 { value: '0', label: 'Gözləmədə' },
                                                 { value: '1', label: 'Təyin edilib' },
                                                 { value: '2', label: 'İcrada' },
-                                                { value: '3', label: 'Tamamlandı' },
-                                                { value: '4', label: 'Vaxtı bitib' }
+                                                { value: '3', label: 'Nəzərdən keçirilir' },
+                                                { value: '4', label: 'Tamamlandı' },
+                                                { value: '5', label: 'Vaxtı bitib' }
                                             ]}
                                         />
                                     </div>

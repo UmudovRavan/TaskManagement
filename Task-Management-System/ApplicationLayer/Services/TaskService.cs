@@ -90,7 +90,7 @@ namespace Application.Services
             }
 
            
-            await _notification.NotifyMentionsAsync(userMessages);
+            await _notification.NotifyMentionsAsync(userMessages, taskId);
         }
 
       
@@ -226,6 +226,76 @@ namespace Application.Services
 
             await _genericService.UpdateAsync(DTO);
 
+        }
+        public async Task FinishTask(int taskId, string userId)
+        {
+            var task = await _genericService.GetByIdAsync(taskId);
+            if (task == null)
+                throw new Exception("Task not found");
+            if (task.AssignedToUserId != userId)
+                throw new Exception("You are not assigned to this task.");
+            var DTO = new TaskDTO
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                AssignedToUserId = task.AssignedToUserId,
+                CreatedByUserId = task.CreatedByUserId,
+                Deadline = task.Deadline,
+                Difficulty = task.Difficulty,
+                Status = CurrentSituation.UnderReview,
+                TaskCommentId = task.TaskCommentId,
+            };
+
+            await _genericService.UpdateAsync(DTO);
+
+            await _transaction.AddAsync(new TaskTransaction
+            {
+                TaskItemId = task.Id,
+                FromUserId = task.CreatedByUserId,
+                ToUserId = userId,
+                Comments = "Task finished"
+            });
+            await _notification.FinishTaskNotificationAsync(task.CreatedByUserId, task.Title, taskId);
+            await _unityOfWork.SaveChangesAsync();
+        }
+
+        public async Task ReturnedForRevision(int taskId, string userId, string reason)
+        {
+            var task = await _genericService.GetByIdAsync(taskId);
+            if (task == null)
+                throw new Exception("Task not found");
+            if (task.CreatedByUserId != userId)
+                throw new Exception("Only the creator can return the task for revision.");
+            
+            var DTO = new TaskDTO
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                AssignedToUserId = task.AssignedToUserId,
+                CreatedByUserId = task.CreatedByUserId,
+                Deadline = task.Deadline,
+                Difficulty = task.Difficulty,
+                Status = CurrentSituation.InProgress,
+                TaskCommentId = task.TaskCommentId,
+            };
+
+            // Execute operations sequentially to avoid DbContext threading issues
+            await _genericService.UpdateAsync(DTO);
+            
+            await _transaction.AddAsync(new TaskTransaction
+            {
+                TaskItemId = task.Id,
+                FromUserId = userId,
+                ToUserId = task.AssignedToUserId,
+                Comments = $"Returned for revision: {reason}"
+            });
+            
+            await _unityOfWork.SaveChangesAsync();
+            
+            // Send notification after all database operations are complete
+            await _notification.ReturnedForRevision(userId, task.Title, taskId);
         }
     }
 }

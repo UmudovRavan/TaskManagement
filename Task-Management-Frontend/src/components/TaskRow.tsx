@@ -1,5 +1,6 @@
 import React from 'react';
 import type { TaskResponse } from '../dto';
+import { TaskStatus } from '../dto';
 import TaskStatusBadge from './TaskStatusBadge';
 import DifficultyDots from './DifficultyDots';
 
@@ -24,11 +25,11 @@ const TaskRow: React.FC<TaskRowProps> = ({ task, currentUserId, onEdit, onDelete
 
     const isOverdue = (): boolean => {
         const deadline = new Date(task.deadline);
-        return deadline < new Date() && task.status !== 3;
+        return deadline < new Date() && task.status !== TaskStatus.Completed;
     };
 
     // Check if current user is task creator and task is completed
-    const canAddPerformance = currentUserId && task.createdByUserId === currentUserId && task.status === 3;
+    const canAddPerformance = currentUserId && task.createdByUserId === currentUserId && task.status === TaskStatus.Completed;
 
     return (
         <div className="flex items-center justify-between p-4 bg-white dark:bg-card-dark rounded-xl border border-[#e5e7eb] dark:border-input-border-dark shadow-sm hover:shadow-md transition-shadow">

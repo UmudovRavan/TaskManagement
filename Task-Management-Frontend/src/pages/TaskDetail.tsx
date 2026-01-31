@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo, useRef } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
+import { useNotifications } from '../context';
 import { taskService, authService, notificationService, userService, attachmentService, performanceService } from '../api';
 import type { TaskResponse, NotificationResponse, UserResponse } from '../dto';
 import { TaskStatus, DifficultyLevel } from '../dto';
@@ -11,6 +12,7 @@ import UserSuggestionList from '../components/UserSuggestionList';
 const TaskDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
+    const { addToast } = useNotifications();
     const [task, setTask] = useState<TaskResponse | null>(null);
     const [notifications, setNotifications] = useState<NotificationResponse[]>([]);
     const [allUsers, setAllUsers] = useState<UserResponse[]>([]);
@@ -24,6 +26,20 @@ const TaskDetail: React.FC = () => {
     // Performance Points state
     const [performanceReason, setPerformanceReason] = useState('');
     const [submittingPerformance, setSubmittingPerformance] = useState(false);
+
+    // Accept/Reject state
+    const [showRejectModal, setShowRejectModal] = useState(false);
+    const [rejectReason, setRejectReason] = useState('');
+    const [processingAccept, setProcessingAccept] = useState(false);
+    const [processingReject, setProcessingReject] = useState(false);
+
+    // Finish Task state
+    const [processingFinish, setProcessingFinish] = useState(false);
+
+    // Return for Revision state
+    const [processingReturn, setProcessingReturn] = useState(false);
+    const [showReturnModal, setShowReturnModal] = useState(false);
+    const [returnReason, setReturnReason] = useState('');
 
     // Mention state for comments
     const [showMentionSuggestions, setShowMentionSuggestions] = useState(false);
@@ -63,8 +79,22 @@ const TaskDetail: React.FC = () => {
 
     const canAddPerformance = useMemo(() => {
         if (!task || !userInfo) return false;
-        // Only task creator can add performance points and task must be completed
-        return task.createdByUserId === userInfo.userId && task.status === TaskStatus.Completed;
+        // Only task creator can add performance points and task must be under review
+        return task.createdByUserId === userInfo.userId && task.status === TaskStatus.UnderReview;
+    }, [task, userInfo]);
+
+    // Check if current user can accept or reject the task
+    const canAcceptReject = useMemo(() => {
+        if (!task || !userInfo) return false;
+        // Only assigned user can accept/reject when task status is Assigned
+        return task.assignedToUserId === userInfo.userId && task.status === TaskStatus.Assigned;
+    }, [task, userInfo]);
+
+    // Check if current user can finish the task (mark as under review)
+    const canFinishTask = useMemo(() => {
+        if (!task || !userInfo) return false;
+        // Only assigned user can finish when task status is InProgress
+        return task.assignedToUserId === userInfo.userId && task.status === TaskStatus.InProgress;
     }, [task, userInfo]);
 
     const assignedUser = useMemo(() => {
@@ -147,8 +177,9 @@ const TaskDetail: React.FC = () => {
         try {
             await taskService.deleteTask(task.id);
             navigate('/tasks');
+            addToast('Tapşırıq uğurla silindi', undefined, 'success');
         } catch {
-            alert('Tapşırığı silmək mümkün olmadı');
+            addToast('Tapşırığı silmək mümkün olmadı', undefined, 'error');
         }
     };
 
@@ -157,13 +188,14 @@ const TaskDetail: React.FC = () => {
 
         setSubmittingComment(true);
         try {
-            await taskService.addComment(task.id, userInfo.userId, newComment.trim());
+            await taskService.addComment(task.id, newComment.trim());
             setNewComment('');
             // Reload task to get updated comments
             const updatedTask = await taskService.getTaskById(task.id);
             setTask(updatedTask);
+            addToast('Şərh əlavə edildi', undefined, 'success');
         } catch {
-            alert('Şərh əlavə etmək mümkün olmadı');
+            addToast('Şərh əlavə etmək mümkün olmadı', undefined, 'error');
         } finally {
             setSubmittingComment(false);
         }
@@ -171,36 +203,173 @@ const TaskDetail: React.FC = () => {
 
     const handleSubmitPerformance = async () => {
         if (!task || !userInfo || !performanceReason.trim()) return;
-        if (task.status !== TaskStatus.Completed) {
-            alert('Performans xalları yalnız tamamlanmış tapşırıqlara əlavə edilə bilər');
+        if (task.status !== TaskStatus.UnderReview) {
+            addToast('Performans xalları yalnız "Nəzərdən keçirilir" statusundakı tapşırıqlara əlavə edilə bilər', undefined, 'error');
             return;
         }
         if (task.createdByUserId !== userInfo.userId) {
-            alert('Yalnız tapşırığı yaradan performans xalı əlavə edə bilər');
+            addToast('Yalnız tapşırığı yaradan performans xalı əlavə edə bilər', undefined, 'error');
             return;
         }
         if (!task.assignedToUserId) {
-            alert('Bu tapşırığa təyin edilmiş istifadəçi yoxdur');
+            addToast('Bu tapşırığa təyin edilmiş istifadəçi yoxdur', undefined, 'error');
             return;
         }
 
         setSubmittingPerformance(true);
         try {
+            // Add performance points
             await performanceService.addPerformancePoint({
                 userId: task.assignedToUserId,
                 taskId: task.id,
                 reason: performanceReason.trim(),
                 senderId: userInfo.userId
             });
+
+            // Update task status to Completed
+            await taskService.updateTask({
+                id: task.id,
+                title: task.title,
+                description: task.description,
+                difficulty: task.difficulty,
+                status: TaskStatus.Completed,
+                deadline: task.deadline,
+                assignedToUserId: task.assignedToUserId,
+                createdByUserId: task.createdByUserId,
+            });
+
             setPerformanceReason('');
-            alert('Performans xalları uğurla əlavə edildi!');
+            // Reload task to get updated status
+            const updatedTask = await taskService.getTaskById(task.id);
+            setTask(updatedTask);
+            addToast('Performans xalları uğurla əlavə edildi və tapşırıq tamamlandı!', undefined, 'success');
         } catch (error: any) {
             const errorMessage = error.response?.data?.message
                 || error.response?.data
                 || 'Performans xalları əlavə etmək mümkün olmadı';
-            alert(errorMessage);
+            addToast(errorMessage, undefined, 'error');
         } finally {
             setSubmittingPerformance(false);
+        }
+    };
+
+    // Handle Return for Revision (reject task back to InProgress)
+    const handleReturnForRevision = async () => {
+        if (!task || !userInfo || !returnReason.trim()) {
+            addToast('Rədd səbəbini daxil edin', undefined, 'error');
+            return;
+        }
+        if (task.status !== TaskStatus.UnderReview) {
+            addToast('Bu tapşırıq artıq nəzərdən keçirilmir', undefined, 'error');
+            setShowReturnModal(false);
+            return;
+        }
+        if (task.createdByUserId !== userInfo.userId) {
+            addToast('Yalnız tapşırığı yaradan onu rədd edə bilər', undefined, 'error');
+            return;
+        }
+
+        setProcessingReturn(true);
+        try {
+            await taskService.returnForRevision(task.id, userInfo.userId, returnReason.trim());
+            setShowReturnModal(false);
+            setReturnReason('');
+            // Reload task to get updated status
+            const updatedTask = await taskService.getTaskById(task.id);
+            setTask(updatedTask);
+            addToast('Tapşırıq yenidən icra üçün geri göndərildi!', undefined, 'success');
+        } catch (error: any) {
+            const errorMessage = error.response?.data?.message
+                || error.response?.data
+                || 'Tapşırığı rədd etmək mümkün olmadı';
+            addToast(errorMessage, undefined, 'error');
+        } finally {
+            setProcessingReturn(false);
+        }
+    };
+
+    // Handle Accept Task
+    const handleAcceptTask = async () => {
+        if (!task || !userInfo) return;
+        if (task.status !== TaskStatus.Assigned) {
+            addToast('Bu tapşırıq artıq qəbul edilib və ya başqa statusdadır', undefined, 'error');
+            return;
+        }
+
+        setProcessingAccept(true);
+        try {
+            await taskService.acceptTask(task.id);
+            // Reload task to get updated status
+            const updatedTask = await taskService.getTaskById(task.id);
+            setTask(updatedTask);
+            addToast('Tapşırıq uğurla qəbul edildi!', undefined, 'success');
+        } catch (error: any) {
+            const errorMessage = error.response?.data?.message
+                || error.response?.data
+                || 'Tapşırığı qəbul etmək mümkün olmadı';
+            addToast(errorMessage, undefined, 'error');
+        } finally {
+            setProcessingAccept(false);
+        }
+    };
+
+    // Handle Reject Task
+    const handleRejectTask = async () => {
+        if (!task || !userInfo || !rejectReason.trim()) {
+            addToast('Rədd səbəbini daxil edin', undefined, 'error');
+            return;
+        }
+        if (task.status !== TaskStatus.Assigned) {
+            addToast('Bu tapşırıq artıq qəbul edilib və ya başqa statusdadır', undefined, 'error');
+            setShowRejectModal(false);
+            return;
+        }
+
+        setProcessingReject(true);
+        try {
+            await taskService.rejectTask(task.id, rejectReason.trim());
+            setShowRejectModal(false);
+            setRejectReason('');
+            // Reload task to get updated status
+            const updatedTask = await taskService.getTaskById(task.id);
+            setTask(updatedTask);
+            addToast('Tapşırıq rədd edildi', undefined, 'success');
+        } catch (error: any) {
+            const errorMessage = error.response?.data?.message
+                || error.response?.data
+                || 'Tapşırığı rədd etmək mümkün olmadı';
+            addToast(errorMessage, undefined, 'error');
+        } finally {
+            setProcessingReject(false);
+        }
+    };
+
+    // Handle Finish Task (mark as Under Review)
+    const handleFinishTask = async () => {
+        if (!task || !userInfo) return;
+        if (task.status !== TaskStatus.InProgress) {
+            addToast('Bu tapşırıq yalnız "İcrada" statusunda olduqda bitiriləcək', undefined, 'error');
+            return;
+        }
+        if (task.assignedToUserId !== userInfo.userId) {
+            addToast('Yalnız tapşırığın icraçısı onu bitirə bilər', undefined, 'error');
+            return;
+        }
+
+        setProcessingFinish(true);
+        try {
+            await taskService.finishTask(task.id);
+            // Reload task to get updated status
+            const updatedTask = await taskService.getTaskById(task.id);
+            setTask(updatedTask);
+            addToast('Tapşırıq uğurla bitirildi! Yaradan tərəfindən nəzərdən keçirilməsi gözlənilir.', undefined, 'success');
+        } catch (error: any) {
+            const errorMessage = error.response?.data?.message
+                || error.response?.data
+                || 'Tapşırığı bitirmək mümkün olmadı';
+            addToast(errorMessage, undefined, 'error');
+        } finally {
+            setProcessingFinish(false);
         }
     };
 
@@ -222,7 +391,7 @@ const TaskDetail: React.FC = () => {
             document.body.removeChild(link);
             window.URL.revokeObjectURL(url);
         } catch {
-            alert('Faylı yükləmək mümkün olmadı');
+            addToast('Faylı yükləmək mümkün olmadı', undefined, 'error');
         }
     };
 
@@ -241,7 +410,7 @@ const TaskDetail: React.FC = () => {
 
             if (!previewUrl || previewUrl === 'undefined' || previewUrl === 'null') {
                 console.error('[Preview] Invalid URL received:', previewUrl);
-                alert('Önizləmə URL-i alına bilmədi - serverdən yanlış cavab');
+                addToast('Önizləmə URL-i alına bilmədi - serverdən yanlış cavab', undefined, 'error');
                 return;
             }
 
@@ -257,7 +426,7 @@ const TaskDetail: React.FC = () => {
             console.log('[Preview] File opened in new tab');
         } catch (error: any) {
             console.error('[Preview] Error:', error);
-            alert(`Faylın önizləməsi mümkün olmadı: ${error.message || 'Naməlum xəta'}`);
+            addToast(`Faylın önizləməsi mümkün olmadı: ${error.message || 'Naməlum xəta'}`, undefined, 'error');
         }
     };
 
@@ -382,6 +551,7 @@ const TaskDetail: React.FC = () => {
             case TaskStatus.Pending: return 'Gözləmədə';
             case TaskStatus.Assigned: return 'Təyin edilib';
             case TaskStatus.InProgress: return 'İcrada';
+            case TaskStatus.UnderReview: return 'Nəzərdən keçirilir';
             case TaskStatus.Completed: return 'Tamamlandı';
             case TaskStatus.Expired: return 'Vaxtı bitib';
             default: return 'Naməlum';
@@ -393,6 +563,7 @@ const TaskDetail: React.FC = () => {
             case TaskStatus.Pending: return 'bg-yellow-50 text-yellow-700 border-yellow-100';
             case TaskStatus.Assigned: return 'bg-blue-50 text-blue-700 border-blue-100';
             case TaskStatus.InProgress: return 'bg-purple-50 text-purple-700 border-purple-100';
+            case TaskStatus.UnderReview: return 'bg-orange-50 text-orange-700 border-orange-100';
             case TaskStatus.Completed: return 'bg-green-50 text-green-700 border-green-100';
             case TaskStatus.Expired: return 'bg-red-50 text-red-700 border-red-100';
             default: return 'bg-gray-50 text-gray-700 border-gray-100';
@@ -688,8 +859,68 @@ const TaskDetail: React.FC = () => {
                                                 <span className="text-sm font-medium">{formatDate(task.deadline)}</span>
                                             </div>
                                         </div>
+
+                                        {/* Finish Task Button - Show for assigned user when status is InProgress */}
+                                        {canFinishTask && (
+                                            <div className="pt-4 mt-4 border-t border-[#dcdfe5] dark:border-gray-700">
+                                                <p className="text-xs text-[#636f88] dark:text-gray-400 mb-3">
+                                                    Tapşırığı bitirdinizsə, yaradanın nəzərdən keçirməsi üçün göndərin.
+                                                </p>
+                                                <button
+                                                    onClick={handleFinishTask}
+                                                    disabled={processingFinish}
+                                                    className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-orange-500 text-white rounded-lg font-bold text-sm hover:bg-orange-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
+                                                >
+                                                    {processingFinish ? (
+                                                        <>
+                                                            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                                            Göndərilir...
+                                                        </>
+                                                    ) : (
+                                                        <>
+                                                            <span className="material-symbols-outlined text-[18px]">task_alt</span>
+                                                            Tapşırığı Bitir
+                                                        </>
+                                                    )}
+                                                </button>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
+
+                                {/* Accept/Reject Task Section - Show for assigned user when status is Assigned */}
+                                {canAcceptReject && (
+                                    <div className="mt-6 pt-6 border-t border-[#dcdfe5] dark:border-gray-700">
+                                        <h4 className="text-sm font-bold text-[#636f88] dark:text-gray-400 mb-4">Tapşırığı Cavablayın</h4>
+                                        <div className="flex flex-col gap-3">
+                                            <button
+                                                onClick={handleAcceptTask}
+                                                disabled={processingAccept || processingReject}
+                                                className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-green-600 text-white rounded-lg font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
+                                            >
+                                                {processingAccept ? (
+                                                    <>
+                                                        <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                                        Qəbul edilir...
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        <span className="material-symbols-outlined text-[18px]">check_circle</span>
+                                                        Tapşırığı Qəbul Et
+                                                    </>
+                                                )}
+                                            </button>
+                                            <button
+                                                onClick={() => setShowRejectModal(true)}
+                                                disabled={processingAccept || processingReject}
+                                                className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-red-50 border border-red-200 text-red-600 rounded-lg font-bold text-sm hover:bg-red-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                            >
+                                                <span className="material-symbols-outlined text-[18px]">cancel</span>
+                                                Tapşırığı Rədd Et
+                                            </button>
+                                        </div>
+                                    </div>
+                                )}
 
                                 {/* Performance Points Section - Only for completed tasks created by current user */}
                                 {canAddPerformance && task.assignedToUserId && (
@@ -736,9 +967,19 @@ const TaskDetail: React.FC = () => {
                                                 ) : (
                                                     <>
                                                         <span className="material-symbols-outlined text-[18px]">add_circle</span>
-                                                        Performans Xalı Əlavə et
+                                                        Təsdiqlə və Tamamla
                                                     </>
                                                 )}
+                                            </button>
+
+                                            {/* Return for Revision Button */}
+                                            <button
+                                                onClick={() => setShowReturnModal(true)}
+                                                disabled={submittingPerformance || processingReturn}
+                                                className="w-full bg-red-50 border border-red-200 text-red-600 text-sm font-bold py-2.5 px-4 rounded-lg hover:bg-red-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                                            >
+                                                <span className="material-symbols-outlined text-[18px]">undo</span>
+                                                Yenidən İşlə Göndər
                                             </button>
                                         </div>
                                     </div>
@@ -794,8 +1035,128 @@ const TaskDetail: React.FC = () => {
                     </div>
                 </main>
             </div>
+
+            {/* Reject Modal */}
+            {showRejectModal && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+                    onClick={() => setShowRejectModal(false)}
+                >
+                    <div
+                        className="bg-white dark:bg-[#1a202c] rounded-xl p-6 w-full max-w-md border border-[#dcdfe5] dark:border-gray-700 shadow-2xl"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-10 h-10 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
+                                <span className="material-symbols-outlined text-red-600 dark:text-red-400">warning</span>
+                            </div>
+                            <div>
+                                <h3 className="text-lg font-bold text-[#111318] dark:text-white">Tapşırığı Rədd Et</h3>
+                                <p className="text-sm text-[#636f88] dark:text-gray-400">Rədd səbəbini qeyd edin</p>
+                            </div>
+                        </div>
+
+                        <textarea
+                            value={rejectReason}
+                            onChange={(e) => setRejectReason(e.target.value)}
+                            placeholder="Niyə bu tapşırığı rədd edirsiniz?"
+                            className="w-full bg-white dark:bg-gray-900 border border-[#dcdfe5] dark:border-gray-600 rounded-lg p-3 min-h-[120px] text-sm focus:ring-red-500 focus:border-red-500 resize-y text-[#111318] dark:text-white placeholder-[#636f88] mb-4"
+                            disabled={processingReject}
+                            autoFocus
+                        />
+
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => {
+                                    setShowRejectModal(false);
+                                    setRejectReason('');
+                                }}
+                                disabled={processingReject}
+                                className="flex-1 py-2.5 px-4 bg-gray-100 dark:bg-gray-800 text-[#111318] dark:text-white rounded-lg font-medium text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-50"
+                            >
+                                Ləğv et
+                            </button>
+                            <button
+                                onClick={handleRejectTask}
+                                disabled={!rejectReason.trim() || processingReject}
+                                className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-red-600 text-white rounded-lg font-bold text-sm hover:bg-red-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                {processingReject ? (
+                                    <>
+                                        <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                        Rədd edilir...
+                                    </>
+                                ) : (
+                                    'Rədd Et'
+                                )}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Return for Revision Modal */}
+            {showReturnModal && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center">
+                    <div
+                        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+                        onClick={() => {
+                            setShowReturnModal(false);
+                            setReturnReason('');
+                        }}
+                    ></div>
+                    <div className="relative bg-white dark:bg-[#1a202c] rounded-xl p-6 w-full max-w-md mx-4 shadow-2xl border border-gray-100 dark:border-gray-700">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="p-2 bg-orange-100 dark:bg-orange-900/30 rounded-lg">
+                                <span className="material-symbols-outlined text-orange-600 dark:text-orange-400">undo</span>
+                            </div>
+                            <div>
+                                <h3 className="text-lg font-bold text-[#111318] dark:text-white">Yenidən İşlə Göndər</h3>
+                                <p className="text-sm text-[#636f88] dark:text-gray-400">Niyə tapşırığı geri göndərirsiniz?</p>
+                            </div>
+                        </div>
+
+                        <textarea
+                            value={returnReason}
+                            onChange={(e) => setReturnReason(e.target.value)}
+                            placeholder="Tapşırığın niyə yenidən işlənməli olduğunu izah edin..."
+                            className="w-full bg-white dark:bg-gray-900 border border-[#dcdfe5] dark:border-gray-600 rounded-lg p-3 min-h-[120px] text-sm focus:ring-orange-500 focus:border-orange-500 resize-y text-[#111318] dark:text-white placeholder-[#636f88] mb-4"
+                            disabled={processingReturn}
+                            autoFocus
+                        />
+
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => {
+                                    setShowReturnModal(false);
+                                    setReturnReason('');
+                                }}
+                                disabled={processingReturn}
+                                className="flex-1 py-2.5 px-4 bg-gray-100 dark:bg-gray-800 text-[#111318] dark:text-white rounded-lg font-medium text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-50"
+                            >
+                                Ləğv et
+                            </button>
+                            <button
+                                onClick={handleReturnForRevision}
+                                disabled={!returnReason.trim() || processingReturn}
+                                className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-orange-500 text-white rounded-lg font-bold text-sm hover:bg-orange-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                {processingReturn ? (
+                                    <>
+                                        <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                        Göndərilir...
+                                    </>
+                                ) : (
+                                    'Geri Göndər'
+                                )}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
 
 export default TaskDetail;
+

@@ -12,9 +12,9 @@ namespace Contract.DTOs
         public int Id { get; set; }
         public string Content { get; set; }
         public string UserId { get; set; }
-      
+        public string? UserName { get; set; }
         public int TaskId { get; set; }
-     
+        public DateTime? CreatedAt { get; set; }
 
         public List<string>? TaskCommentMentionIDs{ get; set; }
     }

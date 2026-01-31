@@ -365,3 +365,1480 @@
 [2026-01-31 02:11:26] [INF] Retrieved all TaskItem entities
 [2026-01-31 02:11:28] [INF] Retrieved all TaskItem entities
 [2026-01-31 02:11:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:22:16] [INF] User Login in: umudova1985@gmail.com
+[2026-01-31 13:22:16] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NTEzMzYsImV4cCI6MTc2OTg1NDkzNiwiaWF0IjoxNzY5ODUxMzM2LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.MLk-tpWK9cRFqMJTqwC1Y1udSJsJF1S4slQd8_W8X4w
+[2026-01-31 13:22:17] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 13:22:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:22:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:22:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:22:24] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:22:53] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 13:22:53] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 13:23:00] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 13:23:00] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 13:23:11] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 13:23:11] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 13:23:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:23:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:27:28] [WRN] Invalid login attempt for user: ravanumdv@gmail.com
+[2026-01-31 13:27:28] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 13:27:33] [INF] User Login in: ravanumdv@gmail.com
+[2026-01-31 13:27:33] [INF] JWT token yaradıldı: ravanumdv@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4MzAxNDU5Ni0wNjEyLTQxZWUtYTU0Ny1jMjFiMjk2MjJkYWQiLCJ1bmlxdWVfbmFtZSI6InJhdmFudW1kdiIsImVtYWlsIjoicmF2YW51bWR2QGdtYWlsLmNvbSIsInJvbGUiOiJFbXBsb3llZSIsIm5iZiI6MTc2OTg1MTY1MywiZXhwIjoxNzY5ODU1MjUzLCJpYXQiOjE3Njk4NTE2NTMsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.Ph0N1JEWWEYbkbWpyXKoCIhh_xh5FvvFHVpGc_BIdK0
+[2026-01-31 13:27:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:27:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:27:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:27:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:30:22] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 13:30:23] [INF] Added TaskItem with ID: 10
+[2026-01-31 13:30:23] [INF] MongoDB Test Log: Added entity at "2026-01-31T09:30:23.0265210Z"
+[2026-01-31 13:30:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:30:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:30:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:30:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:30:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:39:33] [INF] Added TaskItem with ID: 11
+[2026-01-31 13:39:33] [INF] MongoDB Test Log: Added entity at "2026-01-31T09:39:33.2171226Z"
+[2026-01-31 13:39:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:39:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:39:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:43:16] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:44:09] [INF] Added TaskItem with ID: 12
+[2026-01-31 13:44:09] [INF] MongoDB Test Log: Added entity at "2026-01-31T09:44:09.1672460Z"
+[2026-01-31 13:44:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:47:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:48:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:48:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:54:18] [INF] Added TaskItem with ID: 13
+[2026-01-31 13:54:18] [INF] MongoDB Test Log: Added entity at "2026-01-31T09:54:18.2471136Z"
+[2026-01-31 13:54:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 13:54:23] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 13:54:23] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 13:54:30] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 13:54:30] [INF] Updated TaskItem with ID: 13
+[2026-01-31 13:54:30] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:00:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:00:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:00:43] [INF] Retrieved TaskItem with ID: 12
+[2026-01-31 14:00:43] [INF] Retrieved TaskItem with ID: 12
+[2026-01-31 14:00:50] [INF] Retrieved TaskItem with ID: 12
+[2026-01-31 14:00:50] [INF] Updated TaskItem with ID: 12
+[2026-01-31 14:00:50] [INF] Retrieved TaskItem with ID: 12
+[2026-01-31 14:17:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:17:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:18:00] [INF] Added TaskItem with ID: 14
+[2026-01-31 14:18:00] [INF] MongoDB Test Log: Added entity at "2026-01-31T10:18:00.3139525Z"
+[2026-01-31 14:18:00] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:20:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:20:01] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:09] [INF] User Login in: ravanumdv@gmail.com
+[2026-01-31 14:46:09] [INF] JWT token yaradıldı: ravanumdv@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4MzAxNDU5Ni0wNjEyLTQxZWUtYTU0Ny1jMjFiMjk2MjJkYWQiLCJ1bmlxdWVfbmFtZSI6InJhdmFudW1kdiIsImVtYWlsIjoicmF2YW51bWR2QGdtYWlsLmNvbSIsInJvbGUiOiJFbXBsb3llZSIsIm5iZiI6MTc2OTg1NjM2OSwiZXhwIjoxNzY5ODU5OTY5LCJpYXQiOjE3Njk4NTYzNjksImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.r9q6-03nrx9harGItpNb4nURcG_Y46EUAj17tGgq1i0
+[2026-01-31 14:46:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:09] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:46:17] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:17] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:21] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:21] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:22] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:22] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:46:37] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:46:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:46:40] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:46:40] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:47:05] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:47:05] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:47:11] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:47:11] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:50:16] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:50:16] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:51:37] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:51:37] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:53:05] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 14:53:05] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 14:53:47] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 14:53:48] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTg1NjgyOCwiZXhwIjoxNzY5ODYwNDI4LCJpYXQiOjE3Njk4NTY4MjgsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.HDKDRhOg44vGc9HGhp9ptURdUAnlOE45_L5dP92F_E0
+[2026-01-31 14:53:48] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 14:53:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:53:48] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:41] [INF] Retrieved TaskItem with ID: 6
+[2026-01-31 14:54:41] [INF] Retrieved TaskItem with ID: 6
+[2026-01-31 14:54:43] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:43] [INF] Retrieved all TaskItem entities
+[2026-01-31 14:54:53] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:54:53] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:55:08] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 14:55:08] [INF] Added TaskComment with ID: 3
+[2026-01-31 14:55:08] [INF] MongoDB Test Log: Added entity at "2026-01-31T10:55:08.4954486Z"
+[2026-01-31 14:55:08] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:02:06] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:02:06] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:02:13] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:02:58] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:02:58] [INF] Added TaskComment with ID: 4
+[2026-01-31 15:02:58] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:02:58.3685959Z"
+[2026-01-31 15:02:58] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:05:41] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 15:05:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:05:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:05:45] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 15:05:45] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 15:05:49] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 15:05:50] [INF] Added TaskComment with ID: 5
+[2026-01-31 15:05:50] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:05:50.0489326Z"
+[2026-01-31 15:05:50] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 15:05:54] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:05:54] [INF] Retrieved TaskItem with ID: 13
+[2026-01-31 15:09:28] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 15:09:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:51] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:53] [INF] Retrieved all WorkGroup entities
+[2026-01-31 15:09:53] [INF] Retrieved all WorkGroup entities
+[2026-01-31 15:09:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:09:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:01] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:10:01] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:10:12] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:10:13] [INF] Added TaskComment with ID: 6
+[2026-01-31 15:10:13] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:10:13.0728007Z"
+[2026-01-31 15:10:13] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:10:42] [INF] User Login in: umudovr530@gmail.com
+[2026-01-31 15:10:42] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzY5ODU3ODQyLCJleHAiOjE3Njk4NjE0NDIsImlhdCI6MTc2OTg1Nzg0MiwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.r_oKTbngY17tcr3OQxbBvEcMIMcQ7aXeJp7-tlZ-UZA
+[2026-01-31 15:10:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:10:53] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:10:53] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:00] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:00] [INF] Added TaskComment with ID: 7
+[2026-01-31 15:11:00] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:11:00.5907698Z"
+[2026-01-31 15:11:00] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:04] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:04] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:09] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:11:09] [INF] Added TaskComment with ID: 8
+[2026-01-31 15:11:09] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:11:09.8907294Z"
+[2026-01-31 15:11:09] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:22] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 15:17:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:17:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:17:28] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:28] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:38] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:38] [INF] Added TaskComment with ID: 9
+[2026-01-31 15:17:38] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:17:38.1424113Z"
+[2026-01-31 15:17:38] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:56] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:17:56] [INF] Retrieved TaskItem with ID: 8
+[2026-01-31 15:18:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:18:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:18:26] [INF] Added TaskItem with ID: 15
+[2026-01-31 15:18:26] [INF] MongoDB Test Log: Added entity at "2026-01-31T11:18:26.8414804Z"
+[2026-01-31 15:18:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:18:32] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:18:32] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:18:55] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:18:55] [INF] Updated TaskItem with ID: 15
+[2026-01-31 15:18:55] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:48:48] [INF] User Login in: umudovr530@gmail.com
+[2026-01-31 15:48:48] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzY5ODYwMTI4LCJleHAiOjE3Njk4NjM3MjgsImlhdCI6MTc2OTg2MDEyOCwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.rXgQIUk2H6wfKEBlAocbWXTBCxBVdPpN_jQk4DpoCjU
+[2026-01-31 15:48:48] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 15:48:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:50] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:48:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 15:49:00] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:49:00] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:49:07] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:49:07] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:57:08] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:57:36] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 15:57:45] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 16:02:49] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 16:03:24] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 16:09:33] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 16:09:33] [INF] Retrieved TaskItem with ID: 15
+[2026-01-31 16:09:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:09:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:10:00] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:10:00] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:10:15] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:10:40] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:10:54] [WRN] Invalid login attempt for user: umudova1985@gmail.com
+[2026-01-31 16:10:54] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:10:58] [INF] User Login in: umudova1985@gmail.com
+[2026-01-31 16:10:58] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NjE0NTgsImV4cCI6MTc2OTg2NTA1OCwiaWF0IjoxNzY5ODYxNDU4LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.H1BViN5RphtV7OY7KhQUsvdnAl1VVEpqogXsiUD0_jQ
+[2026-01-31 16:10:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:10:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:10:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:10:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:08] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:11:08] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:11:50] [WRN] Invalid login attempt for user: ravanmu@code.edu.az
+[2026-01-31 16:11:50] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:11:53] [INF] User Login in: ravanmu@code.edu.az
+[2026-01-31 16:11:53] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NjE1MTMsImV4cCI6MTc2OTg2NTExMywiaWF0IjoxNzY5ODYxNTEzLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.JLjCIGPwbqh-Ik4ED1WlGexCKxmgZsA6d7XtYnm9rqA
+[2026-01-31 16:11:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:56] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 16:11:56] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 16:11:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:11:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:12:01] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:12:01] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:12:02] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:12:02] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:12:04] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:12:04] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:14:17] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:14:17] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:15:02] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:15:02] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:16:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:13] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:16] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:16:16] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:16:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:17] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:39] [INF] Added TaskItem with ID: 16
+[2026-01-31 16:16:39] [INF] MongoDB Test Log: Added entity at "2026-01-31T12:16:39.6862662Z"
+[2026-01-31 16:16:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:16:49] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:49] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:51] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:51] [INF] Updated TaskItem with ID: 16
+[2026-01-31 16:16:51] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:54] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:55] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:59] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:16:59] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:00] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:00] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:21] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:21] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:40] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 16:17:40] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:17:40] [INF] Updated TaskItem with ID: 16
+[2026-01-31 16:17:41] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:18:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:18:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:18:29] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:18:29] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:18:32] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:18:32] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:20:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:22] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:28] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:50] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-01-31 16:20:50] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:20:54] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 16:20:54] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTg2MjA1NCwiZXhwIjoxNzY5ODY1NjU0LCJpYXQiOjE3Njk4NjIwNTQsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.kAPhHnI2GcvF3irQ6gju3qETW8VWpbE55MWQjeH_E1E
+[2026-01-31 16:20:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:20:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:21:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:21:12] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:21:15] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:21:15] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:27:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:27:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:27:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:27:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:27:44] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:27:44] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:28:03] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 16:28:04] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:28:31] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:28:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:28:41] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:28:45] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:28:45] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:29:28] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 16:29:28] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 16:29:50] [INF] Retrieved TaskItem with ID: 9
+[2026-01-31 16:29:50] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:29:50] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:29:58] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:29:58] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:30:03] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:30:03] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:30:03] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:30:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:30:45] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:30:52] [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:30:52] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8c8baadd-b37b-4d87-8cea-dca5e21662c2
+Error Number:208,State:1,Class:16
+[2026-01-31 16:30:52] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:30:52] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:30:52] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8c8baadd-b37b-4d87-8cea-dca5e21662c2
+Error Number:208,State:1,Class:16
+[2026-01-31 16:30:52] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:30:56] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:30:56] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8c8baadd-b37b-4d87-8cea-dca5e21662c2
+Error Number:208,State:1,Class:16
+[2026-01-31 16:30:56] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:30:56] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:30:56] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8c8baadd-b37b-4d87-8cea-dca5e21662c2
+Error Number:208,State:1,Class:16
+[2026-01-31 16:30:56] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:31:31] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 16:31:31] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTg2MjY5MSwiZXhwIjoxNzY5ODY2MjkxLCJpYXQiOjE3Njk4NjI2OTEsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.SdiKljt-cpQFRb8S02DMMyZkuGCXuQujgcFR5HiqQ6w
+[2026-01-31 16:32:33] [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [WorkGroups] ([CreateAt], [IsDeleted], [LeaderId], [Name], [UpdateAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2026-01-31 16:32:33] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ccc48429-3c5f-404e-8b05-32b3da00363e
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:32:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:32:58] [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [WorkGroups] ([CreateAt], [IsDeleted], [LeaderId], [Name], [UpdateAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2026-01-31 16:32:58] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ccc48429-3c5f-404e-8b05-32b3da00363e
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:32:58] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:33:27] [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [WorkGroups] ([CreateAt], [IsDeleted], [LeaderId], [Name], [UpdateAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+[2026-01-31 16:33:27] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ccc48429-3c5f-404e-8b05-32b3da00363e
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:33:27] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:33:51] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:33:51] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:ccc48429-3c5f-404e-8b05-32b3da00363e
+Error Number:208,State:1,Class:16
+[2026-01-31 16:33:51] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:33:51] [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:33:51] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:ccc48429-3c5f-404e-8b05-32b3da00363e
+Error Number:208,State:1,Class:16
+[2026-01-31 16:33:51] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:33:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:33:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:33:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:33:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:00] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:34:00] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:9657c5df-d882-4b58-a87e-e1ce34625453
+Error Number:208,State:1,Class:16
+[2026-01-31 16:34:00] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:34:00] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:34:00] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:9657c5df-d882-4b58-a87e-e1ce34625453
+Error Number:208,State:1,Class:16
+[2026-01-31 16:34:00] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:34:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:34:06] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:12] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 16:36:12] [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:12] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:12] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:12] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:13] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:13] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:14] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:14] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:14] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:14] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:14] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2c3f87cd-9b3e-4498-90c3-caa380321444
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:14] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:18] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:18] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:18] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:18] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:18] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:18] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:18] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:19] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:19] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:20] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:20] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2c3f87cd-9b3e-4498-90c3-caa380321444
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:20] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:20] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:36:20] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:2c3f87cd-9b3e-4498-90c3-caa380321444
+Error Number:208,State:1,Class:16
+[2026-01-31 16:36:20] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:36:20] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:20] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:25] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:36:25] [INF] Retrieved TaskItem with ID: 5
+[2026-01-31 16:36:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:31] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:36:31] [INF] Retrieved TaskItem with ID: 4
+[2026-01-31 16:36:32] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:32] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:36:40] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:36:40] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:36:41] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:36:41] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:36:45] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:36:46] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:36:46] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:09] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:11] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:11] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:21] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:23] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:23] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:23] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:38:30] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:30] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:38:32] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:32] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:32] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:32] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:32] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:32] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:731072f4-004e-4b09-864b-f1baa3bcafd6
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:731072f4-004e-4b09-864b-f1baa3bcafd6
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:731072f4-004e-4b09-864b-f1baa3bcafd6
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:731072f4-004e-4b09-864b-f1baa3bcafd6
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:33] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:33] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:33] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:34] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:34] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:34] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:34] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:34] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:34] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:38:34] [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:38:34] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:38:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:39:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:39:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:39:31] [ERR] Failed executing DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:39:31] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:d23bea97-e4f5-4951-a2ac-fcd12d4663d0
+Error Number:208,State:1,Class:16
+[2026-01-31 16:39:31] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:39:31] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:39:31] [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:39:31] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:208,State:1,Class:16
+[2026-01-31 16:39:31] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:39:31] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:40:10] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:40:39] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:41:06] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:41:06] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:41:09] [INF] Updated TaskItem with ID: 16
+[2026-01-31 16:41:09] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:41:13] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 16:41:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:41:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:41:54] [INF] Added TaskItem with ID: 17
+[2026-01-31 16:41:54] [INF] MongoDB Test Log: Added entity at "2026-01-31T12:41:54.3861232Z"
+[2026-01-31 16:41:54] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:42:00] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:00] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:03] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:03] [INF] Updated TaskItem with ID: 17
+[2026-01-31 16:42:03] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:07] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:07] [INF] Updated TaskItem with ID: 17
+[2026-01-31 16:42:07] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:14] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:14] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:19] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:42:19] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-01-31 16:42:19] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:42:49] [ERR] Connection id "0HNJ0OL6M7H69", Request id "0HNJ0OL6M7H69:00000159": An unhandled exception was thrown by the application.
+[2026-01-31 16:42:49] [ERR] Failed executing DbCommand (26,841ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[AssignedToUserId], [t].[AssignedWorkGroupId], [t].[CreateAt], [t].[CreatedByUserId], [t].[Deadline], [t].[Description], [t].[Difficulty], [t].[IsDeleted], [t].[ParentTaskId], [t].[Status], [t].[Title], [t].[UpdateAt]
+FROM [Tasks] AS [t]
+WHERE [t].[Id] = @__id_0
+[2026-01-31 16:42:49] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - The group or resource is not in the correct state to perform the requested operation.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3df4843e-0252-4bb8-b529-37ec16129d53
+Error Number:-2,State:0,Class:11
+[2026-01-31 16:42:49] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:43:52] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 16:43:52] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:43:52] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:43:55] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:43:55] [INF] Updated TaskItem with ID: 17
+[2026-01-31 16:43:56] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:44:18] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:44:18] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:44:19] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:44:19] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 16:45:33] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 16:45:33] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTg2MzUzMywiZXhwIjoxNzY5ODY3MTMzLCJpYXQiOjE3Njk4NjM1MzMsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.kRO14xq-42lJ5ttB0Kn9yHbdG0HCG6Zs9I0NK_PkskQ
+[2026-01-31 16:45:50] [ERR] Failed executing DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[CreateAt], [w].[IsDeleted], [w].[LeaderId], [w].[Name], [w].[UpdateAt], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[EmployeeId], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[WorkGroupId], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[Email], [a0].[EmailConfirmed], [a0].[EmployeeId], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName], [a0].[WorkGroupId]
+FROM [WorkGroups] AS [w]
+INNER JOIN [AspNetUsers] AS [a] ON [w].[LeaderId] = [a].[Id]
+LEFT JOIN [AspNetUsers] AS [a0] ON [w].[Id] = [a0].[WorkGroupId]
+WHERE [w].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [w].[Id], [a].[Id]
+[2026-01-31 16:45:50] [ERR] An exception occurred while iterating over the results of a query for context type 'Persistence.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'WorkGroups'.
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:fea89f14-6e54-43b6-a7c8-07f0fa759172
+Error Number:208,State:1,Class:16
+[2026-01-31 16:45:50] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 16:46:49] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 16:46:49] [INF] Retrieved all WorkGroup entities
+[2026-01-31 16:46:49] [INF] Retrieved all WorkGroup entities
+[2026-01-31 16:46:50] [INF] Retrieved all WorkGroup entities
+[2026-01-31 16:46:50] [INF] Retrieved all WorkGroup entities
+[2026-01-31 16:46:52] [INF] Retrieved all TaskItem entities
+[2026-01-31 16:46:52] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:01:54] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:01:54] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:01:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:01:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:03:27] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 17:03:27] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:27] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:28] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:28] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:30] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:30] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:32] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:32] [INF] Updated TaskItem with ID: 17
+[2026-01-31 17:03:32] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:03:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:03:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:03:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:03:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:07:31] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 17:07:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:07:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:08:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:08:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:10:36] [INF] User Login in: umudova1985@gmail.com
+[2026-01-31 17:10:36] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NjUwMzYsImV4cCI6MTc2OTg2ODYzNiwiaWF0IjoxNzY5ODY1MDM2LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.cRmivmVB_oq6ctjE_I8ypwBQH89VWE02LaDG6QfFBzY
+[2026-01-31 17:10:36] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 17:10:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:10:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:10:44] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 17:10:44] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 17:10:46] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 17:10:46] [INF] Retrieved TaskItem with ID: 16
+[2026-01-31 17:14:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:14:42] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:14:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:14:59] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:21:41] [WRN] Invalid login attempt for user: umudovr530@gmail.com
+[2026-01-31 17:21:41] [ERR] An unhandled exception has occurred while executing the request.
+[2026-01-31 17:21:55] [INF] User Login in: umudova1985@gmail.com
+[2026-01-31 17:21:55] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NjU3MTUsImV4cCI6MTc2OTg2OTMxNSwiaWF0IjoxNzY5ODY1NzE1LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.TxbJW2HW38j6tqtB8rHnhfKclWbyKnGjyLLJeOTlkP8
+[2026-01-31 17:21:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:21:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:22:07] [INF] User Login in: umudovr530@gmail.com
+[2026-01-31 17:22:07] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzY5ODY1NzI3LCJleHAiOjE3Njk4NjkzMjcsImlhdCI6MTc2OTg2NTcyNywiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.Y4vlU2e17FkcqRiCh3FzlIo6UeRMqiepozhd5RDNQjc
+[2026-01-31 17:22:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:22:07] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:22:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:22:21] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:22:40] [INF] Added TaskItem with ID: 18
+[2026-01-31 17:22:40] [INF] MongoDB Test Log: Added entity at "2026-01-31T13:22:40.3062602Z"
+[2026-01-31 17:22:40] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:24:53] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:24:53] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:25:02] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:25:02] [INF] Updated TaskItem with ID: 18
+[2026-01-31 17:25:02] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:25:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:25:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:25:08] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:25:08] [INF] Retrieved TaskItem with ID: 18
+[2026-01-31 17:25:47] [INF] Added TaskItem with ID: 19
+[2026-01-31 17:25:47] [INF] MongoDB Test Log: Added entity at "2026-01-31T13:25:47.8782658Z"
+[2026-01-31 17:25:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:25:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:25:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:26:01] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:01] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:04] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:04] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:26:04] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:26:08] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:08] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:11] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:11] [INF] Updated TaskItem with ID: 19
+[2026-01-31 17:26:11] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:18] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:18] [INF] Updated TaskItem with ID: 19
+[2026-01-31 17:26:18] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:23] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:23] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:27] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:28] [INF] Updated TaskItem with ID: 19
+[2026-01-31 17:26:28] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:28] [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreateAt], [IsDeleted], [IsRead], [Message], [TaskId], [UpdateAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 17:26:40] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:40] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:43] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:26:43] [INF] Updated TaskItem with ID: 19
+[2026-01-31 17:26:43] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:28:02] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 17:28:02] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:28:02] [INF] Retrieved TaskItem with ID: 19
+[2026-01-31 17:28:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:28:25] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:28:39] [INF] Added TaskItem with ID: 20
+[2026-01-31 17:28:39] [INF] MongoDB Test Log: Added entity at "2026-01-31T13:28:39.7057719Z"
+[2026-01-31 17:28:39] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:28:43] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:43] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:46] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:46] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:28:46] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:51] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:51] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:28:51] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:54] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:54] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:58] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:28:58] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:28:58] [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreateAt], [IsDeleted], [IsRead], [Message], [TaskId], [UpdateAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 17:28:58] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:29:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:46] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:46] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:29:46] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:51] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:29:51] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:45] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:53] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:53] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:53] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:31:53] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:01] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:01] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:04] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:04] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:32:04] [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreateAt], [IsDeleted], [IsRead], [Message], [TaskId], [UpdateAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 17:32:04] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:20] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:20] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:21] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:32:21] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:32:21] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:33:27] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:33:28] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:03] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:03] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:34:03] [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreateAt], [IsDeleted], [IsRead], [Message], [TaskId], [UpdateAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 17:34:03] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:09] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:09] [INF] Updated TaskItem with ID: 20
+[2026-01-31 17:34:09] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:18] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:18] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:20] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:34:21] [INF] Retrieved TaskItem with ID: 20

@@ -367,10 +367,10 @@ C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\De
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\Presenta.BC777DBE.Up2Date
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\Presentation.dll
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\Ravan\Desktop\TaskManagement\Task-Management-System\Presentation\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
