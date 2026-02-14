@@ -1,0 +1,201 @@
+[2026-02-04 13:40:27] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-04 13:40:27] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzAxOTgwMjcsImV4cCI6MTc3MDIwMTYyNywiaWF0IjoxNzcwMTk4MDI3LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.1Kk88I1rkA6VObOv2ZvJwbENKVlI-gpYPdJAHb0zIoQ
+[2026-02-04 13:40:27] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-04 13:40:27] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:27] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:30] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:30] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:32] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:32] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:40:37] [INF] Retrieved TaskItem with ID: 23
+[2026-02-04 13:40:37] [INF] Retrieved TaskItem with ID: 23
+[2026-02-04 13:41:01] [INF] User Login in: umudovr530@gmail.com
+[2026-02-04 13:41:01] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzcwMTk4MDYxLCJleHAiOjE3NzAyMDE2NjEsImlhdCI6MTc3MDE5ODA2MSwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.-5_3T8-S6L5JhKwAqS0phpgfswYxnHswO4GkX3TqcHY
+[2026-02-04 13:41:01] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:01] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:10] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:10] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:22] [INF] Added TaskItem with ID: 26
+[2026-02-04 13:41:22] [INF] MongoDB Test Log: Added entity at "2026-02-04T09:41:22.7350055Z"
+[2026-02-04 13:41:22] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:26] [INF] Retrieved TaskItem with ID: 23
+[2026-02-04 13:41:26] [INF] Retrieved TaskItem with ID: 23
+[2026-02-04 13:41:29] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:29] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:31] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:31] [INF] Updated TaskItem with ID: 26
+[2026-02-04 13:41:31] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:34] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:34] [INF] Updated TaskItem with ID: 26
+[2026-02-04 13:41:34] [INF] Retrieved TaskItem with ID: 26
+[2026-02-04 13:41:36] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:36] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:46] [INF] Added TaskItem with ID: 27
+[2026-02-04 13:41:46] [INF] MongoDB Test Log: Added entity at "2026-02-04T09:41:46.5481164Z"
+[2026-02-04 13:41:46] [INF] Retrieved all TaskItem entities
+[2026-02-04 13:41:51] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:41:51] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:41:53] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:41:53] [INF] Updated TaskItem with ID: 27
+[2026-02-04 13:41:53] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:00] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:00] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:02] [INF] Updated TaskItem with ID: 27
+[2026-02-04 13:42:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:04] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 13:42:04] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 16:00:36] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-04 16:00:36] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzAyMDY0MzYsImV4cCI6MTc3MDIxMDAzNiwiaWF0IjoxNzcwMjA2NDM2LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.bchUuhhNFSe-hT-sX5AlGDqfuZCKyDlLzUqelMANnAE
+[2026-02-04 16:00:36] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-04 16:00:36] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:00:36] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:04:40] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-04 16:04:40] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzAyMDY2ODAsImV4cCI6MTc3MDIxMDI4MCwiaWF0IjoxNzcwMjA2NjgwLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.5UaFx303aKi6p9nu4IkGp7ToePhDbMgcXM6eCwGLctA
+[2026-02-04 16:04:40] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:04:40] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:04:51] [INF] User Login in: umudovr530@gmail.com
+[2026-02-04 16:04:51] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzcwMjA2NjkxLCJleHAiOjE3NzAyMTAyOTEsImlhdCI6MTc3MDIwNjY5MSwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.YDZkAy46qh815fH78N_80VnNtY4ApLRB0n2yYCUnoM0
+[2026-02-04 16:04:51] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:04:51] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:06] [INF] User Login in: revanumudov9@gmail.com
+[2026-02-04 16:05:06] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc3MDIwNjcwNiwiZXhwIjoxNzcwMjEwMzA2LCJpYXQiOjE3NzAyMDY3MDYsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.Xwx1sIuHj4SLqBekk3lDgw0ksNzJzs3-Bdu1Ie4eTlk
+[2026-02-04 16:05:06] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:06] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:11] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:11] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:45] [INF] Added TaskItem with ID: 28
+[2026-02-04 16:05:45] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:05:45.9624627Z"
+[2026-02-04 16:05:46] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:49] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:49] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:05:53] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 16:05:53] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 16:06:11] [INF] Added TaskItem with ID: 29
+[2026-02-04 16:06:11] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:06:11.4559182Z"
+[2026-02-04 16:06:11] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:06:16] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 16:06:16] [INF] Retrieved TaskItem with ID: 27
+[2026-02-04 16:06:39] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:06:39] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:06:43] [INF] Retrieved TaskItem with ID: 29
+[2026-02-04 16:06:43] [INF] Retrieved TaskItem with ID: 29
+[2026-02-04 16:06:44] [INF] Retrieved TaskItem with ID: 28
+[2026-02-04 16:06:44] [INF] Retrieved TaskItem with ID: 28
+[2026-02-04 16:06:54] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:06:54] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:08:23] [INF] Added TaskItem with ID: 30
+[2026-02-04 16:08:23] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:08:23.2875325Z"
+[2026-02-04 16:08:27] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 16:09:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:09:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:09:44] [INF] Added TaskItem with ID: 31
+[2026-02-04 16:09:44] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:09:44.8402130Z"
+[2026-02-04 16:09:45] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:19] [INF] Added TaskItem with ID: 32
+[2026-02-04 16:10:19] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:10:19.7662861Z"
+[2026-02-04 16:10:19] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:22] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:22] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:27] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:27] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:29] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:29] [INF] Updated TaskItem with ID: 32
+[2026-02-04 16:10:29] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:32] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:32] [INF] Retrieved TaskItem with ID: 32
+[2026-02-04 16:10:35] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:35] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:39] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:10:39] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:11:20] [INF] Added TaskItem with ID: 33
+[2026-02-04 16:11:20] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:11:20.8516530Z"
+[2026-02-04 16:11:21] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:11:23] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:23] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:30] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:30] [INF] Updated TaskItem with ID: 33
+[2026-02-04 16:11:30] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:38] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:38] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:50] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:51] [INF] Added TaskComment with ID: 13
+[2026-02-04 16:11:51] [INF] MongoDB Test Log: Added entity at "2026-02-04T12:11:51.1332081Z"
+[2026-02-04 16:11:51] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:53] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:53] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:58] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:58] [INF] Updated TaskItem with ID: 33
+[2026-02-04 16:11:58] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:11:59] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:12:00] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:12:08] [INF] Updated TaskItem with ID: 33
+[2026-02-04 16:12:08] [INF] Retrieved TaskItem with ID: 33
+[2026-02-04 16:12:18] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:18] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:19] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:19] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:23] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:23] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:31] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:31] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:33] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:33] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:34] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:45] [INF] Retrieved all WorkGroup entities
+[2026-02-04 16:12:45] [INF] Retrieved all WorkGroup entities
+[2026-02-04 16:12:47] [INF] Retrieved all WorkGroup entities
+[2026-02-04 16:12:47] [INF] Retrieved all WorkGroup entities
+[2026-02-04 16:12:48] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:48] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:53] [INF] Retrieved TaskItem with ID: 31
+[2026-02-04 16:12:53] [INF] Retrieved TaskItem with ID: 31
+[2026-02-04 16:12:56] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:56] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:59] [INF] Retrieved all TaskItem entities
+[2026-02-04 16:12:59] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:01:03] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:01:03] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:01:06] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:01:06] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:01:41] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-04 17:01:41] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 17:01:48] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-04 17:01:48] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 17:02:02] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-04 17:02:02] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 17:02:03] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-04 17:02:03] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 17:02:08] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-04 17:02:08] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-04 17:02:21] [INF] User Login in: revanumudov9@gmail.com
+[2026-02-04 17:02:21] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc3MDIxMDE0MSwiZXhwIjoxNzcwMjEzNzQxLCJpYXQiOjE3NzAyMTAxNDEsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.whg38e67l5n5zOYee7nNsR9R0RMBepqT_WCNqdK9fWY
+[2026-02-04 17:02:21] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:02:21] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:02:28] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:02:28] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:02:38] [INF] Retrieved all WorkGroup entities
+[2026-02-04 17:02:38] [INF] Retrieved all WorkGroup entities
+[2026-02-04 17:02:39] [INF] Retrieved all WorkGroup entities
+[2026-02-04 17:02:39] [INF] Retrieved all WorkGroup entities
+[2026-02-04 17:02:46] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:02:46] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:02] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:08] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:08] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:14] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-04 17:03:14] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzAyMTAxOTQsImV4cCI6MTc3MDIxMzc5NCwiaWF0IjoxNzcwMjEwMTk0LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.VbkDUHGBK1tEsQaD3_t1LO7-S-EdZ6FnHqvqv1mebN4
+[2026-02-04 17:03:14] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:14] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:20] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:20] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:30] [INF] Retrieved all TaskItem entities
+[2026-02-04 17:03:30] [INF] Retrieved all TaskItem entities

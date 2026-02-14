@@ -35,3 +35,10 @@ export interface WorkGroupMemberPerformance {
     efficiency: number;
 }
 
+export interface CreateWorkGroupRequest {
+    name: string;
+    leaderId: string;
+    userIds?: string[];
+    taskIds?: number[];
+}
+

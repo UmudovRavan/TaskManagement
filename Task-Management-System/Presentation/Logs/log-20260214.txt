@@ -1,0 +1,175 @@
+[2026-02-14 23:03:10] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-14 23:03:10] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzEwOTU3OTAsImV4cCI6MTc3MTA5OTM5MCwiaWF0IjoxNzcxMDk1NzkwLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.FGO3sJUOfMFYzSqQv4_EythJjwRqPvXrgt5UGCpiV-E
+[2026-02-14 23:03:10] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-14 23:03:10] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:03:10] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:03:13] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:03:13] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:06:41] [INF] Deleted TaskItem with ID: 26
+[2026-02-14 23:06:55] [INF] User Login in: umudovr530@gmail.com
+[2026-02-14 23:06:55] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzcxMDk2MDE1LCJleHAiOjE3NzEwOTk2MTUsImlhdCI6MTc3MTA5NjAxNSwiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.5edYLokdfKtaf1FlSu6Iu6oA6dMTTD_pJUhUTXw74g8
+[2026-02-14 23:06:55] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:06:55] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:11:36] [INF] Added TaskItem with ID: 34
+[2026-02-14 23:11:36] [INF] MongoDB Test Log: Added entity at "2026-02-14T19:11:36.2653250Z"
+[2026-02-14 23:11:36] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:11:38] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:11:38] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:11:41] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:11:41] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:11:57] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:11:57] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:11:57] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:11:57] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:12:02] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:12:02] [INF] Updated TaskItem with ID: 34
+[2026-02-14 23:12:02] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:12:05] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:12:05] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:12:06] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:12:06] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:15:33] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:17:31] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:17:31] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:30] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-14 23:20:31] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:31] [INF] Added TaskComment with ID: 14
+[2026-02-14 23:20:31] [INF] MongoDB Test Log: Added entity at "2026-02-14T19:20:31.4906262Z"
+[2026-02-14 23:20:31] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:33] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:33] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:38] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:38] [INF] Deleted TaskItem with ID: 34
+[2026-02-14 23:20:38] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:20:38] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:20:40] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:40] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:44] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:20:44] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:00] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:00] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:02] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:02] [INF] Updated TaskItem with ID: 34
+[2026-02-14 23:21:02] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:04] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:04] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:09] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:09] [INF] Deleted TaskItem with ID: 34
+[2026-02-14 23:21:09] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:21:09] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:21:15] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:21:15] [INF] Retrieved TaskItem with ID: 34
+[2026-02-14 23:25:52] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:25:52] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:26:21] [INF] Added TaskItem with ID: 35
+[2026-02-14 23:26:21] [INF] MongoDB Test Log: Added entity at "2026-02-14T19:26:21.7548123Z"
+[2026-02-14 23:26:21] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:26:24] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:24] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:27] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:27] [INF] Updated TaskItem with ID: 35
+[2026-02-14 23:26:27] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:38] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:38] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:43] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:43] [INF] Deleted TaskItem with ID: 35
+[2026-02-14 23:26:43] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:26:43] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:26:45] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:45] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:47] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:26:47] [INF] Retrieved TaskItem with ID: 35
+[2026-02-14 23:27:21] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-14 23:27:22] [INF] Added TaskItem with ID: 36
+[2026-02-14 23:27:22] [INF] MongoDB Test Log: Added entity at "2026-02-14T19:27:22.0791831Z"
+[2026-02-14 23:27:22] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:27:23] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:23] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:26] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:26] [INF] Updated TaskItem with ID: 36
+[2026-02-14 23:27:26] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:36] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:36] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:40] [INF] Retrieved TaskItem with ID: 36
+[2026-02-14 23:27:40] [INF] Deleted TaskItem with ID: 36
+[2026-02-14 23:27:40] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:27:40] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:28:17] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:17] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:36] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:28:36] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:28:52] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:52] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:54] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:54] [INF] Updated TaskItem with ID: 27
+[2026-02-14 23:28:54] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:58] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:28:58] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:02] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:03] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:03] [INF] Retrieved TaskItem with ID: 27
+[2026-02-14 23:29:11] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:11] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:15] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:15] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:19] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:19] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:20] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:20] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:22] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:22] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:25] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:29:25] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:39:34] [WRN] Invalid login attempt for user: revanumudov9@gmail.com
+[2026-02-14 23:39:34] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-14 23:39:40] [INF] User Login in: revanumudov9@gmail.com
+[2026-02-14 23:39:40] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc3MTA5Nzk4MCwiZXhwIjoxNzcxMTAxNTgwLCJpYXQiOjE3NzEwOTc5ODAsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.6yebQxFTBu-iDlxdpMwPQGVP-X9ibtWsROJasHJ80NE
+[2026-02-14 23:39:40] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:39:40] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:39:42] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:39:42] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:39:44] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:39:44] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:39:45] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:39:45] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:39:49] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:39:49] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:40:19] [WRN] Invalid login attempt for user: umudova1985@gmail.com
+[2026-02-14 23:40:19] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-14 23:40:26] [WRN] Invalid login attempt for user: umudova1985@gmail.com
+[2026-02-14 23:40:26] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-14 23:40:32] [WRN] Invalid login attempt for user: umudova1985@gmail.com
+[2026-02-14 23:40:32] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-14 23:41:33] [INF] User Login in: umudova1985@gmail.com
+[2026-02-14 23:41:33] [INF] JWT token yaradıldı: umudova1985@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YzIxNzNjZS1hNTQzLTQzZDktYjljMC1lNGEyMGQ0MDc3MTciLCJ1bmlxdWVfbmFtZSI6InVtdWRvdmExOTg1IiwiZW1haWwiOiJ1bXVkb3ZhMTk4NUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzEwOTgwOTMsImV4cCI6MTc3MTEwMTY5MywiaWF0IjoxNzcxMDk4MDkzLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.k-zGDsNX_Dg_T3jRH-MuW551nDeR3rlWVbEKYVh51IU
+[2026-02-14 23:41:33] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:41:33] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:41:46] [WRN] Invalid login attempt for user: ravanumdv@gmail.com
+[2026-02-14 23:41:46] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-14 23:42:22] [INF] User Login in: ravanumdv@gmail.com
+[2026-02-14 23:42:22] [INF] JWT token yaradıldı: ravanumdv@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4MzAxNDU5Ni0wNjEyLTQxZWUtYTU0Ny1jMjFiMjk2MjJkYWQiLCJ1bmlxdWVfbmFtZSI6InJhdmFudW1kdiIsImVtYWlsIjoicmF2YW51bWR2QGdtYWlsLmNvbSIsInJvbGUiOiJFbXBsb3llZSIsIm5iZiI6MTc3MTA5ODE0MiwiZXhwIjoxNzcxMTAxNzQyLCJpYXQiOjE3NzEwOTgxNDIsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.91OuVG2hl8Tepm4hpr01vwp7HGA6oX-DX7e2IyMGMj4
+[2026-02-14 23:42:22] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:42:22] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:11] [INF] User Login in: ravanakaakka@gmail.com
+[2026-02-14 23:46:11] [INF] JWT token yaradıldı: ravanakaakka@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJiOWJiMDI3My1kNDI4LTQ1YTgtYmIxYy03ODIzZjU0ZmVkYTgiLCJ1bmlxdWVfbmFtZSI6InJhdmFuYWthYWtrYSIsImVtYWlsIjoicmF2YW5ha2Fha2thQGdtYWlsLmNvbSIsInJvbGUiOlsiRW1wbG95ZWUiLCJBZG1pbiJdLCJuYmYiOjE3NzEwOTgzNzEsImV4cCI6MTc3MTEwMTk3MSwiaWF0IjoxNzcxMDk4MzcxLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.EDy__ujX8pa4T1orwnllAtKwSQ-dGL5bBDhHs60QZtg
+[2026-02-14 23:46:11] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:11] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:14] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:14] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:15] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:15] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:17] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:17] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:19] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:19] [INF] Retrieved all TaskItem entities
+[2026-02-14 23:46:19] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:19] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:30] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:30] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:33] [INF] Retrieved all WorkGroup entities
+[2026-02-14 23:46:33] [INF] Retrieved all WorkGroup entities

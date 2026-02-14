@@ -56,8 +56,34 @@ namespace Application.Services
         }
         public async Task<WorkGroupDTO> CreateWorkGroupAsync(WorkGroupDTO workGroup)
         {
-            await _groupWorkservice.AddAsync(workGroup);
-            return workGroup;
+            var created = await _groupWorkservice.AddAsync(workGroup);
+
+            // Assign WorkGroupId to the leader (manager)
+            if (!string.IsNullOrEmpty(created.LeaderId))
+            {
+                var leader = await _userManager.FindByIdAsync(created.LeaderId);
+                if (leader != null)
+                {
+                    leader.WorkGroupId = created.Id;
+                    await _userManager.UpdateAsync(leader);
+                }
+            }
+
+            // Assign WorkGroupId to all selected employees
+            if (workGroup.UserIds != null && workGroup.UserIds.Any())
+            {
+                foreach (var userId in workGroup.UserIds)
+                {
+                    var user = await _userManager.FindByIdAsync(userId);
+                    if (user != null)
+                    {
+                        user.WorkGroupId = created.Id;
+                        await _userManager.UpdateAsync(user);
+                    }
+                }
+            }
+
+            return created;
         }
         public async Task UpdateWorkGroupAsync(WorkGroupDTO workGroup)
         {

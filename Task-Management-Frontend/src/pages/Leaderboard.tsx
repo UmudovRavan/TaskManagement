@@ -4,7 +4,7 @@ import { Sidebar, Header } from '../layout';
 import { performanceService, notificationService, taskService } from '../api';
 import type { LeaderboardEntry, NotificationResponse, TaskResponse } from '../dto';
 import { TaskStatus, DifficultyLevel } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const Leaderboard: React.FC = () => {
@@ -46,8 +46,7 @@ const Leaderboard: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     // Filtered Leaderboard

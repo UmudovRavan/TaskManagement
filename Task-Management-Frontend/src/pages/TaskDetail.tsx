@@ -5,7 +5,7 @@ import { useNotifications } from '../context';
 import { taskService, authService, notificationService, userService, attachmentService, performanceService } from '../api';
 import type { TaskResponse, NotificationResponse, UserResponse } from '../dto';
 import { TaskStatus, DifficultyLevel } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 import UserSuggestionList from '../components/UserSuggestionList';
 
@@ -61,8 +61,7 @@ const TaskDetail: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const isManager = useMemo(() => {
@@ -74,7 +73,8 @@ const TaskDetail: React.FC = () => {
 
     const canEdit = useMemo(() => {
         if (!task || !userInfo) return false;
-        return isManager || task.createdByUserId === userInfo.userId || task.assignedToUserId === userInfo.userId;
+        // Only the task creator or manager/admin can edit/delete the task
+        return isManager || task.createdByUserId === userInfo.userId;
     }, [task, userInfo, isManager]);
 
     const canAddPerformance = useMemo(() => {

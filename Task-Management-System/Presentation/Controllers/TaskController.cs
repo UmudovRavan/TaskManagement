@@ -86,10 +86,20 @@ namespace Presentation.Controllers
             {
                 return BadRequest("Yanlış və ya boş tapşırıq məlumatı.");
             }
+
+            // Check ownership - only creator can update the task
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var existingTask = await _genericService.GetByIdAsync(taskDto.Id);
+            if (existingTask == null)
+            {
+                return NotFound("Tapşırıq tapılmadı.");
+            }
+            if (existingTask.CreatedByUserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             var updatedTask = await _genericService.UpdateAsync(taskDto);
-
-
-
 
             return Ok("Dəyişikliklər  Qeyd Olundu");
         }
@@ -132,6 +142,18 @@ namespace Presentation.Controllers
         [HttpDelete("DeleteTask/{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {
+            // Check ownership - only creator can delete the task
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var existingTask = await _genericService.GetByIdAsync(id);
+            if (existingTask == null)
+            {
+                return NotFound();
+            }
+            if (existingTask.CreatedByUserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             var result = await _genericService.DeleteAsync(id);
             if (!result)
             {

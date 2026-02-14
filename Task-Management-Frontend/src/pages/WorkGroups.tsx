@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
-import { authService, notificationService } from '../api';
+import { authService, notificationService, userService } from '../api';
 import { workGroupService } from '../api/workGroupService';
-import type { WorkGroupResponse, WorkGroupStats, WorkGroupListItem } from '../dto/WorkGroupResponse';
-import type { NotificationResponse } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import type { WorkGroupResponse, WorkGroupStats, WorkGroupListItem, CreateWorkGroupRequest } from '../dto/WorkGroupResponse';
+import type { NotificationResponse, UserResponse } from '../dto';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const SECTORS = [
@@ -36,6 +36,21 @@ const WorkGroups: React.FC = () => {
     const [loading, setLoading] = useState(true);
     const [userInfo, setUserInfo] = useState<UserInfo | null>(null);
 
+    // Modal state for creating new work group
+    const [showCreateModal, setShowCreateModal] = useState(false);
+    const [newGroupName, setNewGroupName] = useState('');
+    const [creating, setCreating] = useState(false);
+    const [createError, setCreateError] = useState('');
+
+    // Wizard states
+    const [wizardStep, setWizardStep] = useState(1);
+    const [allUsers, setAllUsers] = useState<UserResponse[]>([]);
+    const [usersLoading, setUsersLoading] = useState(false);
+    const [selectedManagerId, setSelectedManagerId] = useState<string>('');
+    const [selectedEmployeeIds, setSelectedEmployeeIds] = useState<string[]>([]);
+    const [managerSearch, setManagerSearch] = useState('');
+    const [employeeSearch, setEmployeeSearch] = useState('');
+
     const displayName = useMemo(() => {
         if (!userInfo) return 'User';
         if (userInfo.userName) {
@@ -49,14 +64,20 @@ const WorkGroups: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const isManager = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return false;
         return userInfo.roles.some(
             (role) => role.toLowerCase() === 'manager' || role.toLowerCase() === 'admin'
+        );
+    }, [userInfo]);
+
+    const isAdmin = useMemo(() => {
+        if (!userInfo || !userInfo.roles.length) return false;
+        return userInfo.roles.some(
+            (role) => role.toLowerCase() === 'admin'
         );
     }, [userInfo]);
 
@@ -81,6 +102,20 @@ const WorkGroups: React.FC = () => {
                 navigate('/dashboard');
                 return;
             }
+
+            // Manager (not admin): redirect to their own group detail page
+            const isUserAdmin = parsedUser.roles.some(r => r.toLowerCase() === 'admin');
+            if (!isUserAdmin) {
+                workGroupService.getAllWorkGroups().then(groups => {
+                    const myGroup = groups.find(g => g.leaderId === parsedUser.userId);
+                    if (myGroup) {
+                        navigate(`/work-groups/${myGroup.id}`, { replace: true });
+                    } else {
+                        navigate('/dashboard');
+                    }
+                }).catch(() => navigate('/dashboard'));
+                return;
+            }
         } else {
             navigate('/login');
             return;
@@ -99,7 +134,17 @@ const WorkGroups: React.FC = () => {
             ]);
 
             setNotifications(notificationsData);
-            processWorkGroups(workGroupsData);
+
+            // Manager: only show the group they lead. Admin: show all.
+            const token = authService.getToken();
+            const parsedUser = token ? parseJwtToken(token) : null;
+            const isUserAdmin = parsedUser?.roles.some(r => r.toLowerCase() === 'admin') ?? false;
+
+            const filtered = isUserAdmin
+                ? workGroupsData
+                : workGroupsData.filter(g => g.leaderId === parsedUser?.userId);
+
+            processWorkGroups(filtered);
         } catch {
             setWorkGroups([]);
         } finally {
@@ -180,6 +225,111 @@ const WorkGroups: React.FC = () => {
         }
     };
 
+    const loadUsers = async () => {
+        setUsersLoading(true);
+        try {
+            const users = await userService.getAllUsers();
+            setAllUsers(users);
+        } catch {
+            setAllUsers([]);
+        } finally {
+            setUsersLoading(false);
+        }
+    };
+
+    const managers = useMemo(() => {
+        return allUsers.filter(u => u.role?.toLowerCase() === 'manager');
+    }, [allUsers]);
+
+    const employees = useMemo(() => {
+        return allUsers.filter(u => u.role?.toLowerCase() === 'employee');
+    }, [allUsers]);
+
+    const filteredManagers = useMemo(() => {
+        if (!managerSearch.trim()) return managers;
+        const s = managerSearch.toLowerCase();
+        return managers.filter(m => m.userName.toLowerCase().includes(s) || m.email.toLowerCase().includes(s));
+    }, [managers, managerSearch]);
+
+    const filteredEmployees = useMemo(() => {
+        if (!employeeSearch.trim()) return employees;
+        const s = employeeSearch.toLowerCase();
+        return employees.filter(e => e.userName.toLowerCase().includes(s) || e.email.toLowerCase().includes(s));
+    }, [employees, employeeSearch]);
+
+    const handleOpenCreateModal = () => {
+        setShowCreateModal(true);
+        setWizardStep(1);
+        setNewGroupName('');
+        setSelectedManagerId('');
+        setSelectedEmployeeIds([]);
+        setCreateError('');
+        setManagerSearch('');
+        setEmployeeSearch('');
+        loadUsers();
+    };
+
+    const handleNextStep = () => {
+        if (wizardStep === 1 && !newGroupName.trim()) {
+            setCreateError('İş qrupu adı boş ola bilməz');
+            return;
+        }
+        if (wizardStep === 2 && !selectedManagerId) {
+            setCreateError('Manager seçilməlidir');
+            return;
+        }
+        setCreateError('');
+        setWizardStep(prev => prev + 1);
+    };
+
+    const handlePrevStep = () => {
+        setCreateError('');
+        setWizardStep(prev => prev - 1);
+    };
+
+    const toggleEmployee = (id: string) => {
+        setSelectedEmployeeIds(prev =>
+            prev.includes(id) ? prev.filter(e => e !== id) : [...prev, id]
+        );
+    };
+
+    const handleCreateWorkGroup = async () => {
+        if (selectedEmployeeIds.length === 0) {
+            setCreateError('Ən azı 1 işçi seçilməlidir');
+            return;
+        }
+
+        setCreating(true);
+        setCreateError('');
+
+        try {
+            const request: CreateWorkGroupRequest = {
+                name: newGroupName.trim(),
+                leaderId: selectedManagerId,
+                userIds: selectedEmployeeIds,
+                taskIds: [],
+            };
+
+            await workGroupService.createWorkGroup(request);
+            setShowCreateModal(false);
+            loadWorkGroupsData();
+        } catch (error: any) {
+            console.error('Error creating work group:', error);
+            setCreateError(error.response?.data?.message || 'İş qrupu yaradılarkən xəta baş verdi');
+        } finally {
+            setCreating(false);
+        }
+    };
+
+    const handleCloseModal = () => {
+        setShowCreateModal(false);
+        setNewGroupName('');
+        setCreateError('');
+        setWizardStep(1);
+        setSelectedManagerId('');
+        setSelectedEmployeeIds([]);
+    };
+
     if (loading) {
         return (
             <div className="flex h-screen w-full bg-background-light dark:bg-background-dark">
@@ -221,6 +371,16 @@ const WorkGroups: React.FC = () => {
                                         Komandaları, performansı və işçi məhsuldarlığını idarə edin
                                     </p>
                                 </div>
+                                {/* Create Work Group Button - Only visible for admin */}
+                                {isAdmin && (
+                                    <button
+                                        onClick={handleOpenCreateModal}
+                                        className="flex items-center gap-2 px-5 py-2.5 bg-primary hover:bg-blue-700 text-white rounded-xl text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-200"
+                                    >
+                                        <span className="material-symbols-outlined text-xl">add</span>
+                                        Yeni İş Qrupu Yarat
+                                    </button>
+                                )}
                             </div>
 
                             {/* Stats Overview */}
@@ -381,6 +541,188 @@ const WorkGroups: React.FC = () => {
                     </div>
                 </main>
             </div>
+
+            {/* Create Work Group Wizard Modal */}
+            {showCreateModal && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+                    <div className="bg-white dark:bg-card-dark rounded-2xl shadow-2xl w-full max-w-lg mx-4 overflow-hidden">
+                        {/* Modal Header */}
+                        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 dark:border-slate-700">
+                            <h2 className="text-lg font-bold text-[#111318] dark:text-white flex items-center gap-2">
+                                <span className="material-symbols-outlined text-primary">group_add</span>
+                                Yeni İş Qrupu Yarat
+                            </h2>
+                            <button onClick={handleCloseModal} className="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+                                <span className="material-symbols-outlined text-slate-500 dark:text-slate-400">close</span>
+                            </button>
+                        </div>
+
+                        {/* Step Indicator */}
+                        <div className="flex items-center gap-2 px-6 pt-4">
+                            {[1, 2, 3].map(step => (
+                                <div key={step} className="flex items-center flex-1 gap-2">
+                                    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0 transition-all ${wizardStep === step ? 'bg-primary text-white shadow-md' :
+                                        wizardStep > step ? 'bg-emerald-500 text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-500'
+                                        }`}>{wizardStep > step ? '✓' : step}</div>
+                                    {step < 3 && <div className={`flex-1 h-1 rounded-full transition-all ${wizardStep > step ? 'bg-emerald-500' : 'bg-slate-200 dark:bg-slate-700'}`} />}
+                                </div>
+                            ))}
+                        </div>
+                        <div className="flex justify-between px-6 mt-1 mb-2">
+                            <span className="text-xs text-slate-500 w-1/3">Ad</span>
+                            <span className="text-xs text-slate-500 w-1/3 text-center">Manager</span>
+                            <span className="text-xs text-slate-500 w-1/3 text-right">İşçilər</span>
+                        </div>
+
+                        {/* Step Content */}
+                        <div className="px-6 py-4 min-h-[280px] max-h-[400px] overflow-y-auto">
+                            {/* Step 1: Group Name */}
+                            {wizardStep === 1 && (
+                                <div>
+                                    <label className="block text-sm font-medium text-[#636f88] dark:text-slate-400 mb-2">İş Qrupu Adı</label>
+                                    <input
+                                        type="text"
+                                        value={newGroupName}
+                                        onChange={(e) => setNewGroupName(e.target.value)}
+                                        placeholder="Məsələn: Marketinq Komandası"
+                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-[#111318] dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                                        autoFocus
+                                    />
+                                </div>
+                            )}
+
+                            {/* Step 2: Select Manager */}
+                            {wizardStep === 2 && (
+                                <div>
+                                    <label className="block text-sm font-medium text-[#636f88] dark:text-slate-400 mb-2">Manager Seçin</label>
+                                    <input
+                                        type="text"
+                                        value={managerSearch}
+                                        onChange={(e) => setManagerSearch(e.target.value)}
+                                        placeholder="Manager axtar..."
+                                        className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-[#111318] dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 mb-3 text-sm"
+                                    />
+                                    {usersLoading ? (
+                                        <div className="flex justify-center py-8"><div className="w-6 h-6 border-3 border-primary border-t-transparent rounded-full animate-spin"></div></div>
+                                    ) : filteredManagers.length === 0 ? (
+                                        <p className="text-sm text-slate-500 text-center py-6">Manager tapılmadı</p>
+                                    ) : (
+                                        <div className="flex flex-col gap-2">
+                                            {filteredManagers.map(m => (
+                                                <div
+                                                    key={m.id}
+                                                    onClick={() => setSelectedManagerId(m.id)}
+                                                    className={`flex items-center gap-3 p-3 rounded-xl border cursor-pointer transition-all ${selectedManagerId === m.id
+                                                        ? 'border-primary bg-primary/5 dark:bg-primary/10 shadow-sm'
+                                                        : 'border-slate-200 dark:border-slate-700 hover:border-primary/40'
+                                                        }`}
+                                                >
+                                                    <div className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold ${selectedManagerId === m.id ? 'bg-primary text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
+                                                        }`}>{m.userName.charAt(0).toUpperCase()}</div>
+                                                    <div className="flex-1 min-w-0">
+                                                        <p className="text-sm font-semibold text-[#111318] dark:text-white truncate">{m.userName}</p>
+                                                        <p className="text-xs text-slate-500 truncate">{m.email}</p>
+                                                    </div>
+                                                    {selectedManagerId === m.id && (
+                                                        <span className="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                                    )}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            )}
+
+                            {/* Step 3: Select Employees */}
+                            {wizardStep === 3 && (
+                                <div>
+                                    <label className="block text-sm font-medium text-[#636f88] dark:text-slate-400 mb-2">
+                                        İşçilər Seçin <span className="text-primary">({selectedEmployeeIds.length} seçildi)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        value={employeeSearch}
+                                        onChange={(e) => setEmployeeSearch(e.target.value)}
+                                        placeholder="İşçi axtar..."
+                                        className="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 text-[#111318] dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 mb-3 text-sm"
+                                    />
+                                    {usersLoading ? (
+                                        <div className="flex justify-center py-8"><div className="w-6 h-6 border-3 border-primary border-t-transparent rounded-full animate-spin"></div></div>
+                                    ) : filteredEmployees.length === 0 ? (
+                                        <p className="text-sm text-slate-500 text-center py-6">İşçi tapılmadı</p>
+                                    ) : (
+                                        <div className="flex flex-col gap-2">
+                                            {filteredEmployees.map(e => {
+                                                const isSelected = selectedEmployeeIds.includes(e.id);
+                                                return (
+                                                    <div
+                                                        key={e.id}
+                                                        onClick={() => toggleEmployee(e.id)}
+                                                        className={`flex items-center gap-3 p-3 rounded-xl border cursor-pointer transition-all ${isSelected
+                                                            ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 shadow-sm'
+                                                            : 'border-slate-200 dark:border-slate-700 hover:border-emerald-300'
+                                                            }`}
+                                                    >
+                                                        <div className={`w-5 h-5 rounded-md border-2 flex items-center justify-center transition-all ${isSelected ? 'bg-emerald-500 border-emerald-500' : 'border-slate-300 dark:border-slate-600'
+                                                            }`}>
+                                                            {isSelected && <span className="text-white text-xs font-bold">✓</span>}
+                                                        </div>
+                                                        <div className="w-9 h-9 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-sm font-bold text-slate-600 dark:text-slate-300">
+                                                            {e.userName.charAt(0).toUpperCase()}
+                                                        </div>
+                                                        <div className="flex-1 min-w-0">
+                                                            <p className="text-sm font-semibold text-[#111318] dark:text-white truncate">{e.userName}</p>
+                                                            <p className="text-xs text-slate-500 truncate">{e.email}</p>
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    )}
+                                </div>
+                            )}
+
+                            {/* Error Message */}
+                            {createError && (
+                                <div className="mt-3 flex items-center gap-2 text-red-600 dark:text-red-400 text-sm">
+                                    <span className="material-symbols-outlined text-base">error</span>
+                                    {createError}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Modal Footer */}
+                        <div className="flex items-center justify-between px-6 py-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-700">
+                            <button
+                                onClick={wizardStep === 1 ? handleCloseModal : handlePrevStep}
+                                className="px-4 py-2 rounded-lg text-sm font-medium text-[#636f88] dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+                            >
+                                {wizardStep === 1 ? 'Ləğv Et' : '← Geri'}
+                            </button>
+                            {wizardStep < 3 ? (
+                                <button
+                                    onClick={handleNextStep}
+                                    className="flex items-center gap-2 px-5 py-2 rounded-lg bg-primary hover:bg-blue-700 text-white text-sm font-semibold transition-all"
+                                >
+                                    Növbəti →
+                                </button>
+                            ) : (
+                                <button
+                                    onClick={handleCreateWorkGroup}
+                                    disabled={creating || selectedEmployeeIds.length === 0}
+                                    className="flex items-center gap-2 px-5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                                >
+                                    {creating ? (
+                                        <><div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div> Yaradılır...</>
+                                    ) : (
+                                        <><span className="material-symbols-outlined text-lg">check</span> Yarat</>
+                                    )}
+                                </button>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

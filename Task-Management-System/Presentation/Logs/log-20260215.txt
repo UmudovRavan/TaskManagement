@@ -1,0 +1,528 @@
+[2026-02-15 00:03:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:02] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-15 00:05:02] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:02] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:05:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:08:47] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-15 00:08:47] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:08:47] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:09:11] [INF] Added WorkGroup with ID: 4
+[2026-02-15 00:09:11] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:09:11.8650445Z"
+[2026-02-15 00:09:12] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_AspNetUsers_WorkGroup_WorkGroupId". The conflict occurred in database "TaskManagement", table "dbo.WorkGroup", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:94d10d37-110f-4757-9edc-d005791737d8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-02-15 00:09:12] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-15 00:10:04] [INF] Added WorkGroup with ID: 5
+[2026-02-15 00:10:04] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:10:04.0250572Z"
+[2026-02-15 00:10:04] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_AspNetUsers_WorkGroup_WorkGroupId". The conflict occurred in database "TaskManagement", table "dbo.WorkGroup", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:94d10d37-110f-4757-9edc-d005791737d8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-02-15 00:10:04] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-15 00:10:11] [INF] Added WorkGroup with ID: 6
+[2026-02-15 00:10:11] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:10:11.2993759Z"
+[2026-02-15 00:10:11] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_AspNetUsers_WorkGroup_WorkGroupId". The conflict occurred in database "TaskManagement", table "dbo.WorkGroup", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:94d10d37-110f-4757-9edc-d005791737d8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-02-15 00:10:11] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-15 00:10:12] [INF] Added WorkGroup with ID: 7
+[2026-02-15 00:10:12] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:10:12.2016433Z"
+[2026-02-15 00:10:12] [ERR] An exception occurred in the database while saving changes for context type 'Persistence.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_AspNetUsers_WorkGroup_WorkGroupId". The conflict occurred in database "TaskManagement", table "dbo.WorkGroup", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:94d10d37-110f-4757-9edc-d005791737d8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2026-02-15 00:10:12] [ERR] An unhandled exception has occurred while executing the request.
+[2026-02-15 00:11:32] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-15 00:11:32] [INF] Added WorkGroup with ID: 8
+[2026-02-15 00:11:32] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:11:32.4408125Z"
+[2026-02-15 00:11:32] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:16] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:16] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:35] [INF] Added WorkGroup with ID: 9
+[2026-02-15 00:12:35] [INF] MongoDB Test Log: Added entity at "2026-02-14T20:12:35.3551512Z"
+[2026-02-15 00:12:35] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:36] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:36] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:38] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:38] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:52] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:12:52] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:12:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:57] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:57] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:12:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:13:25] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:13:25] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:36] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:36] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:37] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:37] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:38] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:38] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:41] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:41] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:42] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:42] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:47] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:47] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:14:49] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:49] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:14:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:15:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:15:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:15:18] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:15:18] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:16:27] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-15 00:16:27] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzExMDAxODcsImV4cCI6MTc3MTEwMzc4NywiaWF0IjoxNzcxMTAwMTg3LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.YEAmqjRH-QKvpdN_yuXqw0_bvIig9T-UtmRXA-y0lK8
+[2026-02-15 00:16:27] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:16:27] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:16:30] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:16:30] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:16:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:16:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:03] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:17:03] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:17:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:24] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:24] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:17:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:14] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:14] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:16] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:16] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:18:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:27] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:44] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:19:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:27] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:27] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:20:28] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:20:30] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:30] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:31] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:31] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:33] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:33] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:20:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:03] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:03] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:14] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:14] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:15] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:15] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:21:18] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:18] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:18] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:18] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:19] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:19] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:21] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:21:21] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:33] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:33] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:34] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:34] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:34] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:34] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:34] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:34] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:35] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:35] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:37] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:37] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:37] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:37] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:23:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:23:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:24:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:24:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:33:27] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:33:27] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:06] [INF] User Login in: revanumudov9@gmail.com
+[2026-02-15 00:43:06] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc3MTEwMTc4NiwiZXhwIjoxNzcxMTA1Mzg2LCJpYXQiOjE3NzExMDE3ODYsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.VilS0YCU02BIhSSTblIfa4xOvbivF31kMLHkNEJK5ec
+[2026-02-15 00:43:06] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:06] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:15] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:15] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:24] [INF] Retrieved TaskItem with ID: 10
+[2026-02-15 00:43:24] [INF] Retrieved TaskItem with ID: 10
+[2026-02-15 00:43:26] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:43:26] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:40] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:40] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:57] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:57] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:48:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:48:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:49:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:49:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:26] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:26] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:51:30] [INF] User Login in: ravanakaakka@gmail.com
+[2026-02-15 00:51:30] [INF] JWT token yaradıldı: ravanakaakka@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJiOWJiMDI3My1kNDI4LTQ1YTgtYmIxYy03ODIzZjU0ZmVkYTgiLCJ1bmlxdWVfbmFtZSI6InJhdmFuYWthYWtrYSIsImVtYWlsIjoicmF2YW5ha2Fha2thQGdtYWlsLmNvbSIsInJvbGUiOlsiRW1wbG95ZWUiLCJBZG1pbiJdLCJuYmYiOjE3NzExMDIyOTAsImV4cCI6MTc3MTEwNTg5MCwiaWF0IjoxNzcxMTAyMjkwLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.CL8crUuTJI4bse6_Q1OwlXqR6I_BKk0l2mqGA_f9Su8
+[2026-02-15 00:51:30] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:30] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:51:30] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:30] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:51:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:51:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:52:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:52:23] [INF] Retrieved TaskItem with ID: 6
+[2026-02-15 00:52:23] [INF] Retrieved TaskItem with ID: 6
+[2026-02-15 00:52:25] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:25] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:52:25] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:25] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:52:57] [INF] Retrieved TaskItem with ID: 23
+[2026-02-15 00:52:57] [INF] Retrieved TaskItem with ID: 23
+[2026-02-15 00:52:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:52:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:52:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:35] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:35] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:41] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:41] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:41] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:44] [INF] Retrieved TaskItem with ID: 3
+[2026-02-15 00:53:44] [INF] Retrieved TaskItem with ID: 3
+[2026-02-15 00:53:45] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:45] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:48] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:48] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:56] [INF] Retrieved TaskItem with ID: 4
+[2026-02-15 00:53:56] [INF] Retrieved TaskItem with ID: 4
+[2026-02-15 00:53:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:53:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:53:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:54:03] [INF] Retrieved TaskItem with ID: 2
+[2026-02-15 00:54:03] [INF] Retrieved TaskItem with ID: 2
+[2026-02-15 00:54:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:54:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:54:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:21] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:21] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:23] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:23] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:54:23] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:54:23] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:55:31] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:55:31] [INF] Retrieved all TaskItem entities
+[2026-02-15 00:55:31] [INF] Retrieved all WorkGroup entities
+[2026-02-15 00:55:31] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:00:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:00:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:00:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:00:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:00:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:00:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:00:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:00:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:48] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:48] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:49] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:49] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:49] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:49] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:51] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:51] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:01:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:01:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:02:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:02] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:02:02] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:02] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:02:02] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:02:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:02:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:06:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:03] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:03] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:06:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:06:04] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:09:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:09] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:09] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:14] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:14] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:09:14] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:09:14] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:19] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:19] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:19] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:19] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:42] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-15 01:17:42] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzExMDM4NjIsImV4cCI6MTc3MTEwNzQ2MiwiaWF0IjoxNzcxMTAzODYyLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.1i6qR3nUlFdtGhbReUQj-arNM9MPqS5Uux2Ntr9e770
+[2026-02-15 01:17:42] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:42] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:42] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:42] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:17:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:17:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:19:29] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:19:29] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:29] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:29] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:19:29] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:19:29] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:47] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:47] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:52] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:19:52] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:20:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:20:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:20:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:20:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:23:06] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:23:06] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:06] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:23:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:23:26] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:26] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:31] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:31] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:23:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:23:54] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:24:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:24:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:24:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:24:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:24:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:12] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:12] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:13] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:13] [INF] Retrieved all TaskItem entities
+[2026-02-15 01:26:13] [INF] Retrieved all WorkGroup entities
+[2026-02-15 01:26:13] [INF] Retrieved all TaskItem entities

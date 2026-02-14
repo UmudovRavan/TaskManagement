@@ -2,11 +2,15 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
 import { KpiCard, WorkloadChart, ActivityFeed } from '../components';
-import { dashboardService, notificationService, authService } from '../api';
+import { dashboardService, notificationService, authService, workGroupService } from '../api';
+import userService from '../api/userService';
 import type { TaskResponse, NotificationResponse } from '../dto';
+import type { WorkGroupResponse } from '../dto/WorkGroupResponse';
+import type { UserResponse } from '../dto';
 import { TaskStatus } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
+import type { UserRole } from '../components/WorkloadChart';
 
 interface DashboardStats {
     activeTasks: number;
@@ -21,6 +25,8 @@ const DashboardOverview: React.FC = () => {
     const navigate = useNavigate();
     const [tasks, setTasks] = useState<TaskResponse[]>([]);
     const [notifications, setNotifications] = useState<NotificationResponse[]>([]);
+    const [workGroupsData, setWorkGroupsData] = useState<WorkGroupResponse[]>([]);
+    const [usersData, setUsersData] = useState<UserResponse[]>([]);
     const [stats, setStats] = useState<DashboardStats>({
         activeTasks: 0,
         overdueTasks: 0,
@@ -45,9 +51,17 @@ const DashboardOverview: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
+
+    const chartRole: UserRole = useMemo(() => {
+        const r = userRole.toLowerCase();
+        if (r === 'admin') return 'admin';
+        if (r === 'manager') return 'manager';
+        return 'employee';
+    }, [userRole]);
+
+    const currentUserId = useMemo(() => userInfo?.userId || '', [userInfo]);
 
     useEffect(() => {
         const token = authService.getToken();
@@ -70,13 +84,17 @@ const DashboardOverview: React.FC = () => {
         try {
             setLoading(true);
 
-            const [tasksData, notificationsData] = await Promise.all([
+            const [tasksData, notificationsData, wgData, usrs] = await Promise.all([
                 dashboardService.getAllTasks().catch(() => []),
                 notificationService.getMyNotifications().catch(() => []),
+                workGroupService.getAllWorkGroups().catch(() => []),
+                userService.getAllUsers().catch(() => []),
             ]);
 
             setTasks(tasksData);
             setNotifications(notificationsData);
+            setWorkGroupsData(wgData);
+            setUsersData(usrs);
             calculateStats(tasksData);
         } catch {
             // Silent fail - data will show as empty
@@ -220,7 +238,13 @@ const DashboardOverview: React.FC = () => {
                         </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                            <WorkloadChart tasks={tasks} />
+                            <WorkloadChart
+                                tasks={tasks}
+                                userRole={chartRole}
+                                userId={currentUserId}
+                                workGroups={workGroupsData}
+                                users={usersData}
+                            />
                             <ActivityFeed
                                 notifications={notifications}
                                 onViewAll={() => navigate('/notifications')}

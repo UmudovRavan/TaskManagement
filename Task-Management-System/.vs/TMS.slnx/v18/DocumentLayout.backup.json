@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\domain\\enums\\currentsituation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\currentsituation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\presentation\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\domain\\enums\\currentsituation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\currentsituation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\ravan\\desktop\\taskmanagement\\task-management-system\\applicationlayer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,20 +50,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthorizeController.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Presentation\\Controllers\\AuthorizeController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthorizeController.cs",
               "ToolTip": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Presentation\\Controllers\\AuthorizeController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\AuthorizeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T13:05:52.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T13:05:52.316Z"
             },
             {
               "$type": "Document",
@@ -75,8 +90,7 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\PerformanceService.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAUwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:47:32.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:47:32.346Z"
             },
             {
               "$type": "Document",
@@ -88,38 +102,36 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\WorkGroupService.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAADwv3YAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:45:44.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:45:44.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Presentation\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Presentation\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAIwMIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:43:59.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:43:59.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Persistence\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Persistence\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Persistence\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Persistence\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T11:43:07.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CurrentSituation.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\TaskManagement\\Task-Management-System\\Domain\\Enums\\CurrentSituation.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\CurrentSituation.cs",
@@ -127,8 +139,7 @@
               "RelativeToolTip": "Domain\\Enums\\CurrentSituation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:42:33.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:42:33.036Z"
             },
             {
               "$type": "Document",
@@ -140,8 +151,7 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\NotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:14:18.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:14:18.873Z"
             },
             {
               "$type": "Document",
@@ -153,8 +163,7 @@
               "RelativeToolTip": "Contract\\Services\\INotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:42:14.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:42:14.707Z"
             },
             {
               "$type": "Document",
@@ -166,8 +175,7 @@
               "RelativeToolTip": "Contract\\Services\\ITaksService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:42:00.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T11:42:00.807Z"
             },
             {
               "$type": "Document",
@@ -179,16 +187,7 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\TaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T11:41:02.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2026-01-31T11:41:02.579Z"
             }
           ]
         },

@@ -1842,3 +1842,136 @@ VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
 [2026-01-31 17:34:18] [INF] Retrieved TaskItem with ID: 20
 [2026-01-31 17:34:20] [INF] Retrieved TaskItem with ID: 20
 [2026-01-31 17:34:21] [INF] Retrieved TaskItem with ID: 20
+[2026-01-31 17:39:11] [INF] User Login in: ravanmu@code.edu.az
+[2026-01-31 17:39:11] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3Njk4NjY3NTEsImV4cCI6MTc2OTg3MDM1MSwiaWF0IjoxNzY5ODY2NzUxLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.DhpEa6w5tO4esNSK99fD8as0NlJFFpBu4ONr0yPntRg
+[2026-01-31 17:39:11] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-31 17:39:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:33] [INF] User Login in: revanumudov9@gmail.com
+[2026-01-31 17:39:33] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc2OTg2Njc3MywiZXhwIjoxNzY5ODcwMzczLCJpYXQiOjE3Njk4NjY3NzMsImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.ymRk4EUrEAzzQmGUGqkVy2zFkdT-VjUnoGGkM1glLRY
+[2026-01-31 17:39:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:33] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:35] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:39:35] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:39:36] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:39:36] [INF] Retrieved all WorkGroup entities
+[2026-01-31 17:39:37] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:39:37] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:34] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:41:34] [INF] Retrieved TaskItem with ID: 17
+[2026-01-31 17:41:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:44] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:46] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:41:53] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:46:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 17:46:31] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:10:52] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 18:10:52] [INF] Retrieved TaskItem with ID: 2
+[2026-01-31 18:10:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:10:55] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:14:59] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:14:59] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:14:59] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:14:59] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:15:00] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:00] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:04] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:15:04] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:15:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:05] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:07] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:15:07] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:15:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:08] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:26] [INF] Added TaskItem with ID: 21
+[2026-01-31 18:15:26] [INF] MongoDB Test Log: Added entity at "2026-01-31T14:15:26.6464743Z"
+[2026-01-31 18:15:26] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:15:49] [INF] Added TaskItem with ID: 22
+[2026-01-31 18:15:49] [INF] MongoDB Test Log: Added entity at "2026-01-31T14:15:49.7662260Z"
+[2026-01-31 18:15:49] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:16:10] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:10] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:12] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:12] [INF] Updated TaskItem with ID: 22
+[2026-01-31 18:16:12] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:19] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:16:19] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:16:21] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:21] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:23] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:23] [INF] Updated TaskItem with ID: 22
+[2026-01-31 18:16:23] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:25] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:25] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:30] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:30] [INF] Updated TaskItem with ID: 22
+[2026-01-31 18:16:30] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:30] [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreateAt], [IsDeleted], [IsRead], [Message], [TaskId], [UpdateAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+[2026-01-31 18:16:33] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:33] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:49] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:49] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:51] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:51] [INF] Updated TaskItem with ID: 22
+[2026-01-31 18:16:51] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:54] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:54] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:16:56] [INF] Updated TaskItem with ID: 22
+[2026-01-31 18:16:56] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:17:00] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:17:00] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:17:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:11] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:20] [INF] Added TaskItem with ID: 23
+[2026-01-31 18:17:20] [INF] MongoDB Test Log: Added entity at "2026-01-31T14:17:20.7540476Z"
+[2026-01-31 18:17:20] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:24] [INF] Retrieved TaskItem with ID: 23
+[2026-01-31 18:17:24] [INF] Retrieved TaskItem with ID: 23
+[2026-01-31 18:17:26] [INF] Retrieved TaskItem with ID: 23
+[2026-01-31 18:17:26] [INF] Updated TaskItem with ID: 23
+[2026-01-31 18:17:26] [INF] Retrieved TaskItem with ID: 23
+[2026-01-31 18:17:37] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:37] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:40] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:40] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:52] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:52] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:56] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:56] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:17:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:57] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:17:58] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:00] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:00] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:08] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:08] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:09] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:09] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:14] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:14] [INF] Retrieved all WorkGroup entities
+[2026-01-31 18:18:33] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:18:33] [INF] Retrieved TaskItem with ID: 22
+[2026-01-31 18:18:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:35] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:36] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:37] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:37] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:38] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:47] [INF] Retrieved all TaskItem entities
+[2026-01-31 18:18:47] [INF] Retrieved all TaskItem entities

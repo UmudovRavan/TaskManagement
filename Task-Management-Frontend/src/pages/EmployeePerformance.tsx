@@ -14,7 +14,7 @@ import type {
     UserResponse,
 } from '../dto';
 import { TaskStatus, DifficultyLevel } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const DIFFICULTY_POINTS = {
@@ -52,8 +52,7 @@ const EmployeePerformance: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const isManager = useMemo(() => {
@@ -635,7 +634,8 @@ const EmployeePerformance: React.FC = () => {
                                             taskHistory.map((task) => (
                                                 <tr
                                                     key={task.id}
-                                                    className="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors"
+                                                    onClick={() => navigate(`/tasks/${task.id}`)}
+                                                    className="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors cursor-pointer"
                                                 >
                                                     <td className="px-6 py-4 font-medium text-gray-900 dark:text-white">
                                                         {task.title}

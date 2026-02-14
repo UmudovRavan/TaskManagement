@@ -62,3 +62,31 @@ export const isTokenExpired = (token: string): boolean => {
         return true;
     }
 };
+
+/**
+ * Get the primary role from a list of roles.
+ * Priority: admin > manager > employee > others
+ * If multiple roles exist and one is 'employee', prefer the other role.
+ */
+export const getPrimaryRole = (roles: string[]): string => {
+    if (!roles || roles.length === 0) return 'Employee';
+
+    // Define role priority (higher number = higher priority)
+    const rolePriority: Record<string, number> = {
+        'admin': 100,
+        'manager': 50,
+        'employee': 10,
+    };
+
+    // Sort roles by priority (descending) and return the highest one
+    const sortedRoles = [...roles].sort((a, b) => {
+        const priorityA = rolePriority[a.toLowerCase()] || 1;
+        const priorityB = rolePriority[b.toLowerCase()] || 1;
+        return priorityB - priorityA;
+    });
+
+    const primaryRole = sortedRoles[0];
+
+    // Capitalize first letter
+    return primaryRole.charAt(0).toUpperCase() + primaryRole.slice(1).toLowerCase();
+};

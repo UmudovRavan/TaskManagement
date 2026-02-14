@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Sidebar, Header } from '../layout';
 import { notificationService, authService } from '../api';
 import type { NotificationResponse } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 type FilterTab = 'all' | 'unread' | 'mentions';
@@ -28,8 +28,7 @@ const Notifications: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     // Filter notifications based on active tab

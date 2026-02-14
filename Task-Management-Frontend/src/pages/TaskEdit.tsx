@@ -4,7 +4,7 @@ import { Sidebar, Header } from '../layout';
 import { taskService, authService, notificationService, userService } from '../api';
 import type { TaskResponse, NotificationResponse, UserResponse } from '../dto';
 import { TaskStatus, DifficultyLevel } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 import UserSuggestionList from '../components/UserSuggestionList';
 
@@ -49,8 +49,7 @@ const TaskEdit: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const filteredUsers = useMemo(() => {
@@ -101,6 +100,19 @@ const TaskEdit: React.FC = () => {
             if (!taskData) {
                 navigate('/tasks');
                 return;
+            }
+
+            // Check ownership - only the task creator or manager/admin can edit
+            const token = authService.getToken();
+            const currentUser = token ? parseJwtToken(token) : null;
+            if (currentUser) {
+                const isManagerOrAdmin = currentUser.roles.some(
+                    (r) => r.toLowerCase() === 'manager' || r.toLowerCase() === 'admin'
+                );
+                if (taskData.createdByUserId !== currentUser.userId && !isManagerOrAdmin) {
+                    navigate(`/tasks/${taskId}`);
+                    return;
+                }
             }
 
             setTask(taskData);

@@ -2,8 +2,10 @@
 using Application.Exceptions;
 using Contract.DTOs;
 using Contract.Services;
+using Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers
@@ -14,11 +16,13 @@ namespace Presentation.Controllers
     {
         private readonly IAuthorizeService _authorizeService;
         private readonly IPasswordResetService _passwordResetService;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public AuthorizeController(IAuthorizeService authorizeService, IPasswordResetService passwordResetService)
+        public AuthorizeController(IAuthorizeService authorizeService, IPasswordResetService passwordResetService, UserManager<ApplicationUser> userManager)
         {
             _authorizeService = authorizeService;
             _passwordResetService = passwordResetService;
+            _userManager = userManager;
         }
 
         [AllowAnonymous]
@@ -44,11 +48,22 @@ namespace Presentation.Controllers
         }
         [Authorize]
         [HttpGet("AllUsers")]
-
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _authorizeService.GetAllUsersAsync();
-            return Ok(users);
+            var result = new List<object>();
+            foreach (var user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                result.Add(new
+                {
+                    id = user.Id,
+                    userName = user.UserName,
+                    email = user.Email,
+                    role = roles.FirstOrDefault() ?? "Employee"
+                });
+            }
+            return Ok(result);
         }
         [Authorize]
         [HttpPost("LogOut")]

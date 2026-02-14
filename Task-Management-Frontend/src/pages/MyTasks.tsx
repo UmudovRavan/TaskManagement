@@ -6,7 +6,7 @@ import CreateTaskModal from '../components/CreateTaskModal';
 import { taskService, authService, notificationService } from '../api';
 import type { TaskResponse, NotificationResponse } from '../dto';
 import { TaskStatus } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const ITEMS_PER_PAGE = 10;
@@ -38,8 +38,7 @@ const MyTasks: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const isManager = useMemo(() => {

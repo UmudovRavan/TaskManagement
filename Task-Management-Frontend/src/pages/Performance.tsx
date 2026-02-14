@@ -4,7 +4,7 @@ import { Sidebar, Header } from '../layout';
 import { performanceService, taskService, notificationService } from '../api';
 import type { NotificationResponse, TaskResponse, LeaderboardEntry } from '../dto';
 import { TaskStatus } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const Performance: React.FC = () => {
@@ -45,8 +45,7 @@ const Performance: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     // Calculate performance metrics from tasks

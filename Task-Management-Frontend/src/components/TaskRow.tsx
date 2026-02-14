@@ -31,6 +31,9 @@ const TaskRow: React.FC<TaskRowProps> = ({ task, currentUserId, onEdit, onDelete
     // Check if current user is task creator and task is completed
     const canAddPerformance = currentUserId && task.createdByUserId === currentUserId && task.status === TaskStatus.Completed;
 
+    // Only the task creator can edit/delete
+    const isCreator = currentUserId && task.createdByUserId === currentUserId;
+
     return (
         <div className="flex items-center justify-between p-4 bg-white dark:bg-card-dark rounded-xl border border-[#e5e7eb] dark:border-input-border-dark shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4 flex-1 min-w-0">
@@ -79,20 +82,24 @@ const TaskRow: React.FC<TaskRowProps> = ({ task, currentUserId, onEdit, onDelete
                     >
                         <span className="material-symbols-outlined text-[18px]">visibility</span>
                     </button>
-                    <button
-                        onClick={() => onEdit?.(task)}
-                        className="flex size-8 items-center justify-center rounded-lg text-[#636f88] hover:bg-[#f0f2f4] dark:hover:bg-gray-800 transition-colors"
-                        title="Redaktə et"
-                    >
-                        <span className="material-symbols-outlined text-[18px]">edit</span>
-                    </button>
-                    <button
-                        onClick={() => onDelete?.(task.id)}
-                        className="flex size-8 items-center justify-center rounded-lg text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
-                        title="Sil"
-                    >
-                        <span className="material-symbols-outlined text-[18px]">delete</span>
-                    </button>
+                    {isCreator && (
+                        <>
+                            <button
+                                onClick={() => onEdit?.(task)}
+                                className="flex size-8 items-center justify-center rounded-lg text-[#636f88] hover:bg-[#f0f2f4] dark:hover:bg-gray-800 transition-colors"
+                                title="Redaktə et"
+                            >
+                                <span className="material-symbols-outlined text-[18px]">edit</span>
+                            </button>
+                            <button
+                                onClick={() => onDelete?.(task.id)}
+                                className="flex size-8 items-center justify-center rounded-lg text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+                                title="Sil"
+                            >
+                                <span className="material-symbols-outlined text-[18px]">delete</span>
+                            </button>
+                        </>
+                    )}
                 </div>
             </div>
         </div>

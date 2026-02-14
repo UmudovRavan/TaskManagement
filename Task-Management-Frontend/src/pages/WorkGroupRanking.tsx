@@ -5,7 +5,7 @@ import { authService, notificationService, performanceService } from '../api';
 import userService from '../api/userService';
 import { workGroupService } from '../api/workGroupService';
 import type { WorkGroupResponse, WorkGroupMemberPerformance, NotificationResponse, LeaderboardEntry, UserResponse } from '../dto';
-import { parseJwtToken, isTokenExpired } from '../utils';
+import { parseJwtToken, isTokenExpired, getPrimaryRole } from '../utils';
 import type { UserInfo } from '../utils';
 
 const SECTORS = [
@@ -70,8 +70,7 @@ const WorkGroupRanking: React.FC = () => {
 
     const userRole = useMemo(() => {
         if (!userInfo || !userInfo.roles.length) return 'Team Member';
-        const role = userInfo.roles[0];
-        return role.charAt(0).toUpperCase() + role.slice(1);
+        return getPrimaryRole(userInfo.roles);
     }, [userInfo]);
 
     const isManager = useMemo(() => {
@@ -79,6 +78,11 @@ const WorkGroupRanking: React.FC = () => {
         return userInfo.roles.some(
             (role) => role.toLowerCase() === 'manager' || role.toLowerCase() === 'admin'
         );
+    }, [userInfo]);
+
+    const isAdmin = useMemo(() => {
+        if (!userInfo || !userInfo.roles.length) return false;
+        return userInfo.roles.some((role) => role.toLowerCase() === 'admin');
     }, [userInfo]);
 
     const topPerformers = useMemo(() => members.slice(0, 3), [members]);
@@ -289,16 +293,18 @@ const WorkGroupRanking: React.FC = () => {
                     <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-8 flex flex-col gap-8">
                         {/* Header Section */}
                         <div className="flex flex-col gap-6">
-                            {/* Back Navigation */}
-                            <div className="flex items-center">
-                                <button
-                                    onClick={handleBackClick}
-                                    className="group flex items-center gap-2 text-sm font-medium text-[#636f88] dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
-                                >
-                                    <span className="material-symbols-outlined text-lg">arrow_back</span>
-                                    <span>İş Qrupları</span>
-                                </button>
-                            </div>
+                            {/* Back Navigation - Only for admin */}
+                            {isAdmin && (
+                                <div className="flex items-center">
+                                    <button
+                                        onClick={handleBackClick}
+                                        className="group flex items-center gap-2 text-sm font-medium text-[#636f88] dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+                                    >
+                                        <span className="material-symbols-outlined text-lg">arrow_back</span>
+                                        <span>İş Qrupları</span>
+                                    </button>
+                                </div>
+                            )}
 
                             {/* Page Heading */}
                             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-[#dcdfe5] dark:border-gray-700 pb-6">
