@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
+import { useNotifications } from '../context/NotificationContext';
 import { Link, useNavigate } from 'react-router-dom';
 import { authService } from '../api';
 
@@ -17,10 +18,18 @@ const Header: React.FC<HeaderProps> = ({
     userRole = 'Employee',
     userEmail = '',
     userAvatar,
-    notificationCount = 0,
-    notifications = [],
+    notificationCount: propsNotificationCount = 0,
+    notifications: propNotifications = [],
     onMenuClick,
 }) => {
+    const { notifications: contextNotifications, unreadCount: contextUnreadCount, markAsRead } = useNotifications();
+    // Prioritize context data, fallback to props
+    const notifications = contextNotifications.length > 0 ? contextNotifications : propNotifications;
+    // Sort by date desc
+    const sortedNotifications = [...notifications].sort((a, b) =>
+        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    );
+    const notificationCount = contextUnreadCount !== undefined ? contextUnreadCount : (propsNotificationCount || 0);
     const navigate = useNavigate();
     const [searchQuery, setSearchQuery] = useState('');
     const [searchFocused, setSearchFocused] = useState(false);
@@ -122,7 +131,40 @@ const Header: React.FC<HeaderProps> = ({
         return `${days} gün əvvəl`;
     };
 
-    const recentNotifications = notifications.slice(0, 5);
+    const recentNotifications = sortedNotifications.slice(0, 5);
+
+    const isTaskAcceptedNotification = (message: string) => {
+        return message.toLowerCase().includes('qəbul etdi') || message.toLowerCase().includes('accept');
+    };
+
+    const isTaskRejectedNotification = (message: string) => {
+        return message.toLowerCase().includes('rədd etdi') || message.toLowerCase().includes('reject');
+    };
+
+    const isMentionNotification = (message: string) => {
+        return message.toLowerCase().includes('mention') || message.includes('@');
+    };
+
+    const isAssignmentNotification = (message: string) => {
+        return message.toLowerCase().includes('assign') ||
+            message.toLowerCase().includes('təyin olundu');
+    };
+
+    const getNotificationIcon = (message: string) => {
+        if (isTaskAcceptedNotification(message)) {
+            return { icon: 'check_circle', bgColor: isDark ? 'rgba(16, 185, 129, 0.15)' : '#DCFCE7', textColor: isDark ? '#34D399' : '#16A34A' };
+        }
+        if (isTaskRejectedNotification(message)) {
+            return { icon: 'cancel', bgColor: isDark ? 'rgba(239, 68, 68, 0.15)' : '#FEE2E2', textColor: isDark ? '#F87171' : '#DC2626' };
+        }
+        if (isMentionNotification(message)) {
+            return { icon: 'alternate_email', bgColor: isDark ? 'rgba(59, 130, 246, 0.15)' : '#DBEAFE', textColor: isDark ? '#60A5FA' : '#2563EB' };
+        }
+        if (isAssignmentNotification(message)) {
+            return { icon: 'assignment_ind', bgColor: isDark ? 'rgba(139, 92, 246, 0.15)' : '#F3E8FF', textColor: isDark ? '#A78BFA' : '#7C3AED' };
+        }
+        return { icon: 'notifications', bgColor: isDark ? 'rgba(243, 244, 246, 0.1)' : '#F3F4F6', textColor: isDark ? '#9CA3AF' : '#6B7280' };
+    };
 
     return (
         <header
@@ -400,37 +442,58 @@ const Header: React.FC<HeaderProps> = ({
                                         <p className="text-xs mt-2" style={{ color: isDark ? '#6B7280' : '#9CA3AF' }}>Bildiriş yoxdur</p>
                                     </div>
                                 ) : (
-                                    recentNotifications.map((notif) => (
-                                        <button
-                                            key={notif.id}
-                                            className="w-full flex items-start gap-3 px-5 py-3 text-left"
-                                            style={{
-                                                background: !notif.isRead
-                                                    ? (isDark ? 'rgba(59,130,246,0.05)' : 'rgba(59,130,246,0.03)')
-                                                    : 'transparent',
-                                                borderBottom: `1px solid ${isDark ? '#374151' : '#F9FAFB'}`,
-                                                transition: 'background 0.15s ease',
-                                            }}
-                                            onClick={() => { setShowNotifDropdown(false); navigate('/notifications'); }}
-                                            onMouseEnter={(e) => (e.currentTarget.style.background = isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)')}
-                                            onMouseLeave={(e) => (e.currentTarget.style.background = !notif.isRead ? (isDark ? 'rgba(59,130,246,0.05)' : 'rgba(59,130,246,0.03)') : 'transparent')}
-                                        >
-                                            <span
-                                                className="material-symbols-outlined text-[18px] mt-0.5 shrink-0"
-                                                style={{ color: !notif.isRead ? '#3B82F6' : '#9CA3AF' }}
+                                    recentNotifications.map((notif) => {
+                                        const iconConfig = getNotificationIcon(notif.message);
+                                        return (
+                                            <button
+                                                key={notif.id}
+                                                className="w-full flex items-start gap-3 px-5 py-3 text-left"
+                                                style={{
+                                                    background: !notif.isRead
+                                                        ? (isDark ? 'rgba(59,130,246,0.05)' : 'rgba(59,130,246,0.03)')
+                                                        : 'transparent',
+                                                    borderBottom: `1px solid ${isDark ? '#374151' : '#F9FAFB'}`,
+                                                    transition: 'background 0.15s ease',
+                                                }}
+                                                onClick={() => {
+                                                    markAsRead(notif.id);
+                                                    setShowNotifDropdown(false);
+                                                    navigate('/notifications');
+                                                }}
+                                                onMouseEnter={(e) => (e.currentTarget.style.background = isDark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.02)')}
+                                                onMouseLeave={(e) => (e.currentTarget.style.background = !notif.isRead ? (isDark ? 'rgba(59,130,246,0.05)' : 'rgba(59,130,246,0.03)') : 'transparent')}
                                             >
-                                                {!notif.isRead ? 'mark_email_unread' : 'notifications'}
-                                            </span>
-                                            <div className="flex-1 min-w-0">
-                                                <p className="text-xs leading-relaxed truncate" style={{ color: isDark ? '#E5E7EB' : '#374151', fontWeight: !notif.isRead ? 600 : 400 }}>
-                                                    {notif.message}
-                                                </p>
-                                                <p className="text-[10px] mt-0.5" style={{ color: '#9CA3AF' }}>
-                                                    {formatRelativeTime(notif.createdAt)}
-                                                </p>
-                                            </div>
-                                        </button>
-                                    ))
+                                                <div
+                                                    className="shrink-0 flex items-center justify-center rounded-full"
+                                                    style={{
+                                                        width: 32,
+                                                        height: 32,
+                                                        backgroundColor: iconConfig.bgColor,
+                                                        color: iconConfig.textColor,
+                                                        marginTop: 2
+                                                    }}
+                                                >
+                                                    <span className="material-symbols-outlined text-[18px]">
+                                                        {iconConfig.icon}
+                                                    </span>
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="text-xs leading-relaxed" style={{ color: isDark ? '#E5E7EB' : '#374151', fontWeight: !notif.isRead ? 600 : 400 }}>
+                                                        {notif.message}
+                                                    </p>
+                                                    <p className="text-[10px] mt-1" style={{ color: '#9CA3AF' }}>
+                                                        {formatRelativeTime(notif.createdAt)}
+                                                    </p>
+                                                </div>
+                                                {!notif.isRead && (
+                                                    <div
+                                                        className="shrink-0 rounded-full bg-blue-500"
+                                                        style={{ width: 6, height: 6, marginTop: 8 }}
+                                                    />
+                                                )}
+                                            </button>
+                                        );
+                                    })
                                 )}
                             </div>
                             <div style={{ borderTop: `1px solid ${isDark ? '#374151' : '#F3F4F6'}` }}>

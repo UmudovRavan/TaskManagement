@@ -526,3 +526,179 @@ Error Number:547,State:0,Class:16
 [2026-02-15 01:26:13] [INF] Retrieved all TaskItem entities
 [2026-02-15 01:26:13] [INF] Retrieved all WorkGroup entities
 [2026-02-15 01:26:13] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:49:51] [INF] User Login in: ravanakaakka@gmail.com
+[2026-02-15 15:49:51] [INF] JWT token yaradıldı: ravanakaakka@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJiOWJiMDI3My1kNDI4LTQ1YTgtYmIxYy03ODIzZjU0ZmVkYTgiLCJ1bmlxdWVfbmFtZSI6InJhdmFuYWthYWtrYSIsImVtYWlsIjoicmF2YW5ha2Fha2thQGdtYWlsLmNvbSIsInJvbGUiOlsiRW1wbG95ZWUiLCJBZG1pbiJdLCJuYmYiOjE3NzExNTYxOTEsImV4cCI6MTc3MTE1OTc5MSwiaWF0IjoxNzcxMTU2MTkxLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.YCXlA4auq5OXGC1ycSCA-m2ZL22RsriZlc9re3AUMp8
+[2026-02-15 15:49:51] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-02-15 15:49:51] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:49:51] [INF] Retrieved all WorkGroup entities
+[2026-02-15 15:49:51] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:49:51] [INF] Retrieved all WorkGroup entities
+[2026-02-15 15:49:56] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:49:56] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:49:59] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:49:59] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:50:00] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:50:00] [INF] Retrieved TaskItem with ID: 9
+[2026-02-15 15:50:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:01] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 15:50:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 15:50:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:12] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:12] [INF] Retrieved all WorkGroup entities
+[2026-02-15 15:50:12] [INF] Retrieved all TaskItem entities
+[2026-02-15 15:50:12] [INF] Retrieved all WorkGroup entities
+[2026-02-15 16:32:23] [INF] Retrieved all TaskItem entities
+[2026-02-15 16:32:23] [INF] Retrieved all WorkGroup entities
+[2026-02-15 16:32:23] [INF] Retrieved all TaskItem entities
+[2026-02-15 16:32:23] [INF] Retrieved all WorkGroup entities
+[2026-02-15 16:58:10] [INF] User Login in: ravanakaakka@gmail.com
+[2026-02-15 16:58:10] [INF] JWT token yaradıldı: ravanakaakka@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJiOWJiMDI3My1kNDI4LTQ1YTgtYmIxYy03ODIzZjU0ZmVkYTgiLCJ1bmlxdWVfbmFtZSI6InJhdmFuYWthYWtrYSIsImVtYWlsIjoicmF2YW5ha2Fha2thQGdtYWlsLmNvbSIsInJvbGUiOlsiRW1wbG95ZWUiLCJBZG1pbiJdLCJuYmYiOjE3NzExNjAyOTAsImV4cCI6MTc3MTE2Mzg5MCwiaWF0IjoxNzcxMTYwMjkwLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.EnUL85hOvufHsBWc9jYcnDvGEfcXjnZs7kAs_stZ56U
+[2026-02-15 16:58:10] [INF] Retrieved all TaskItem entities
+[2026-02-15 16:58:10] [INF] Retrieved all TaskItem entities
+[2026-02-15 16:58:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 16:58:10] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:09:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:09:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:09:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:09:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:12:05] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-15 17:12:05] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzExNjExMjUsImV4cCI6MTc3MTE2NDcyNSwiaWF0IjoxNzcxMTYxMTI1LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.KTdt_h0QQtjC5_X8iZ_tQjn2J93yMrRe1-I8jkpCeJo
+[2026-02-15 17:12:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:12:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:12:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:53] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:53] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:55] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:55] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:12:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:12:56] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:14:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:14:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:14:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:14:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:14:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:14:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:14:07] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:14:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:15:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:15:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:15:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:15:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:15:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:15:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:15:46] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:15:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:16:17] [INF] User Login in: ravanmu@code.edu.az
+[2026-02-15 17:16:17] [INF] JWT token yaradıldı: ravanmu@code.edu.az, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI3NjkwZTZkNy1lMDUyLTQ5ODUtYWM3ZC1hM2RkZDM4OTU0NjYiLCJ1bmlxdWVfbmFtZSI6InJhdmFubXUiLCJlbWFpbCI6InJhdmFubXVAY29kZS5lZHUuYXoiLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NzExNjEzNzcsImV4cCI6MTc3MTE2NDk3NywiaWF0IjoxNzcxMTYxMzc3LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.GoENsnYInmCk94JmrhnZOn1jk-eE27g9yVNhkoAC6QU
+[2026-02-15 17:16:17] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:16:17] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:16:17] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:20] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:53] [INF] User Login in: umudovr530@gmail.com
+[2026-02-15 17:16:53] [INF] JWT token yaradıldı: umudovr530@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNDk2MzNlMS04NWE5LTQ3MTctYjBmYi1lYjdjZjE2ZjViNDEiLCJ1bmlxdWVfbmFtZSI6InVtdWRvdnI1MzAiLCJlbWFpbCI6InVtdWRvdnI1MzBAZ21haWwuY29tIiwicm9sZSI6IkVtcGxveWVlIiwibmJmIjoxNzcxMTYxNDEzLCJleHAiOjE3NzExNjUwMTMsImlhdCI6MTc3MTE2MTQxMywiaXNzIjoiVGFza01hbmFnZXIiLCJhdWQiOiJUYXNrTWFuYWFnZXIifQ.tVK9fGMgXuyL5r1Dog2K45151Y3gphEliXYcdV0f04E
+[2026-02-15 17:16:53] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:53] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:16:53] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:53] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:16:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:16:56] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:17:23] [INF] Added TaskItem with ID: 37
+[2026-02-15 17:17:23] [INF] MongoDB Test Log: Added entity at "2026-02-15T13:17:23.5121511Z"
+[2026-02-15 17:17:23] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:27:00] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:00] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:02] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:02] [INF] Updated TaskItem with ID: 37
+[2026-02-15 17:27:02] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:27:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:27:08] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:08] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:10] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:27:10] [INF] Updated TaskItem with ID: 37
+[2026-02-15 17:27:10] [INF] Retrieved TaskItem with ID: 37
+[2026-02-15 17:33:43] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:33:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:43] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:33:43] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:50] [INF] Retrieved TaskItem with ID: 27
+[2026-02-15 17:33:50] [INF] Retrieved TaskItem with ID: 27
+[2026-02-15 17:33:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:33:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:33:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:33:58] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:33:58] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:11] [INF] User Login in: ravanakaakka@gmail.com
+[2026-02-15 17:34:11] [INF] JWT token yaradıldı: ravanakaakka@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJiOWJiMDI3My1kNDI4LTQ1YTgtYmIxYy03ODIzZjU0ZmVkYTgiLCJ1bmlxdWVfbmFtZSI6InJhdmFuYWthYWtrYSIsImVtYWlsIjoicmF2YW5ha2Fha2thQGdtYWlsLmNvbSIsInJvbGUiOlsiRW1wbG95ZWUiLCJBZG1pbiJdLCJuYmYiOjE3NzExNjI0NTEsImV4cCI6MTc3MTE2NjA1MSwiaWF0IjoxNzcxMTYyNDUxLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.rheWTbzi0xlQ54kxQL5xIqe9l6pEISso4F5mmyYXN5s
+[2026-02-15 17:34:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:11] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:11] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:43] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:43] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:44] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:44] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:47] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:47] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:34:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:34:54] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:41:33] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:41:33] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:41:33] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:41:33] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:51:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:51:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:51:50] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:51:50] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:51:59] [INF] Retrieved TaskItem with ID: 31
+[2026-02-15 17:51:59] [INF] Retrieved TaskItem with ID: 31
+[2026-02-15 17:52:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:52:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:00] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:52:00] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:07] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:40] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:45] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:46] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:59] [INF] User Login in: revanumudov9@gmail.com
+[2026-02-15 17:52:59] [INF] JWT token yaradıldı: revanumudov9@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI4YmZmYzhjNi01NmVkLTQ4YWYtODIyYy1kYTY1ZmUwZmUzMWEiLCJ1bmlxdWVfbmFtZSI6InJldmFudW11ZG92OSIsImVtYWlsIjoicmV2YW51bXVkb3Y5QGdtYWlsLmNvbSIsInJvbGUiOlsiTWFuYWdlciIsIkVtcGxveWVlIl0sIm5iZiI6MTc3MTE2MzU3OSwiZXhwIjoxNzcxMTY3MTc5LCJpYXQiOjE3NzExNjM1NzksImlzcyI6IlRhc2tNYW5hZ2VyIiwiYXVkIjoiVGFza01hbmFhZ2VyIn0.NpNSn5rzqMxbywN59pUcpg_CtSuujLKgKHHloVOuCVQ
+[2026-02-15 17:52:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:52:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:52:59] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:52:59] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:01] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:53:04] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:53:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:53:05] [INF] Retrieved all WorkGroup entities
+[2026-02-15 17:53:05] [INF] Retrieved all TaskItem entities
+[2026-02-15 17:53:05] [INF] Retrieved all WorkGroup entities
